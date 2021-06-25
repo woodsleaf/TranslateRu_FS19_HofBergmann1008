@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<l10n>
+	<translationContributors>FARMER_ANDY</translationContributors>
+	<languageVersion>1.0.0.8</languageVersion>
+	<texts>
+		<!-- Misc -->
+		<text name="HofBergmann" text="HofBergmann" />
+		<text name="closedText_default" text="Geschlossen, komme später wieder !" />	
+		<text name="category_crates" text="Kisten" />	
+		<text name="category_productions" text="Produktionsgeräte" />	
+		<text name="category_placeableProductions" text="Produktionen" />	
+		<text name="category_miscObjects" text="Diverses" />	
+		<text name="category_consumerGoods" text="Verbrauchsgüter" />	
+		<text name="category_fruitTrees" text="Obstbäume" />	
+		<text name="category_beeHives" text="Bienenstöcke" />	
+		<text name="category_beekeepingNeeds" text="Imkereibedarf" />	
+		<text name="category_ibcTanks" text="IBC Tanks" />	
+		<text name="category_lsfmAttachmentTools" text="LSFM Anbauwerkzeuge" />	
+		<text name="category_animalSupplies" text="Tierbedarf" />
+	+	<text name="category_drivingSilos" text="Fahrsilos" />
+	+	<text name="configuration_valueEmpty" text="Leer" />	
+	+	<text name="configuration_valueFilled" text="Befüllt" />		
+		<text name="ui_vehicleReset" text="Das Fahrzeug/Gerät wurde zum Hof zurückgesetzt!" />	
+		<text name="ui_failedVehicleReset" text="Das Fahrzeug/Gerät konnte nicht zurückgesetzt werden. Kein Platz mehr am Hof!" />
+		<text name="hofBergmann_hint01" text="© 2018-2021 LSFM Alle Rechte vorbehalten." />	
+		
+		<!-- Actions -->
+		<text name="action_openDoorTop" text="Obere Tür öffnen" />	
+		<text name="action_closeDoorTop" text="Obere Tür schließen" />	
+		<text name="action_openDoorBottom" text="Untere Tür öffnen" />	
+		<text name="action_closeDoorBottom" text="Untere Tür schließen" />	
+		<text name="action_openAtticDoor" text="Dachboden Tür öffnen" />	
+		<text name="action_closeAtticDoor" text="Dachboden Tür schließen" />	
+		<text name="action_openAtticGate" text="Dachboden Tor öffnen" />	
+		<text name="action_closeAtticGate" text="Dachboden Tor schließen" />	
+		<text name="action_openSlurryPit" text="Güllegrube öffnen" />	
+		<text name="action_closeSlurryPit" text="Güllegrube schliessen" />	
+		<text name="action_liftUp" text="Regalboden heben" />	
+		<text name="action_lowerDown" text="Regalboden senken" />	
+		<text name="action_rollGateliftUp" text="Rolltor Hoch" />	
+		<text name="action_rollGatelowerDown" text="Rolltor Runter" />	
+		<text name="action_fanStart" text="Ventilation einschalten" />	
+		<text name="action_fanStop" text="Ventilation ausschalten" />	
+		<text name="action_openElectroFence" text="Weidezaun öffnen" />	
+		<text name="action_closeElectroFence" text="Weidezaun schliessen" />	
+		<text name="action_openBunkerPlanks" text="Bohlen einsetzen" />
+		<text name="action_closeBunkerPlanks" text="Bohlen entfernen" />
+		<text name="action_activateTrailerFilling" text="Anhängerbefüllung erlauben" />
+		<text name="action_deactivateTrailerFilling" text="Anhängerbefüllung verhindern" />
+		<text name="action_takeOffTop" text="Oberteil ausziehen" />
+		<text name="action_takeOnTop"  text="Oberteil anziehen" />
+		<text name="action_openOvenDoors"  text="Backraum öffnen" />
+		<text name="action_closeOvenDoors"  text="Backraum schließen" />
+		<text name="action_openOvenFPDoors"  text="Brennkammer öffnen" />
+		<text name="action_closeOvenFPDoors"  text="Brennkammer schließen" />
+		<text name="action_womanMuteOn" text="Begrüßung abschalten" />
+		<text name="action_womanMuteOff" text="Begrüßung erlauben" />
+	    <text name="action_openPitCover" text="Deckel öffnen" />	
+		<text name="action_closePitCover" text="Deckel schliessen" />	
+		<text name="action_openGasWheel" text="Gashahn öffnen (Einspeisung in Gasnetz)" />	
+		<text name="action_closeGasWheel" text="Gashahn schliessen (keine Einspeisung in Gasnetz)" />
+		<text name="action_autoModeOn" text="Ballen Lager Modus aktivieren" />	
+		<text name="action_autoModeOff" text="Ballen Lager Modus deaktivieren" />
+		<text name="action_wineCellarEnter" text="Keller betreten" />	
+		<text name="action_wineCellarExit" text="Keller verlassen" />
+		<text name="action_liftUpMixer" text="Güllemixer heben" />	
+		<text name="action_lowerDownMixer" text="Güllemixer senken" />
+		<text name="action_switchFillingSystemOn" text="Trigger Befüllung aktivieren" />	
+		<text name="action_switchFillingSystemOff" text="Schlauch Befüllung aktivieren" />
+		<text name="action_openSiloDoors" text="Siloschieber öffnen (Befüllen erlaubt)" />	
+		<text name="action_closeSiloDoors" text="Siloschieber schließen (Befüllen verhindert)" />	
+		<text name="action_openBaleLattice" text="Ballengitter öffnen" />	
+		<text name="action_closeBaleLattice" text="Ballengitter schließen" />	
+		<text name="action_rotatePipePos" text="Rohr ausklappen" />	
+		<text name="action_rotatePipeNeg" text="Rohr einklappen" />	
+		<text name="action_openFridgeDoor"  text="Kühlschrank öffnen" />
+		<text name="action_closeFridgeDoor"  text="Kühlschrank schließen" />
+		<text name="action_easyFillModeOn"  text="Befüllmethode: Wechseln auf Anhängerbefüllung" />
+		<text name="action_easyFillModeOff"  text="Befüllmethode: Wechseln auf Schaufelbefüllung" />
+		<text name="action_radarTrapsOn"  text="Blitzer deaktivieren" />
+		<text name="action_radarTrapsOff"  text="Blitzer aktivieren" />
+		<text name="action_storageModePosText" text="Einlagern aktivieren" />	
+		<text name="action_storageModeNegText" text="Einlagern deaktivieren" />
+		<text name="action_atticCranePosText" text="Transportlift ausfahren" />	
+		<text name="action_atticCraneNegText" text="Transportlift einfahren" />
+		<text name="action_openServiceDoor" text="Luke öffnen" />	
+		<text name="action_closeServiceDoor" text="Luke schliessen" />
+		<text name="action_openAtticStorageGate" text="Tür öffnen (Dachboden Lager)" />
+		<text name="action_closeAtticStorageGate" text="Tür schliessen (Dachboden Lager)" />
+	+	<text name="action_wallsOn" text="Wände anzeigen" />
+	+	<text name="action_wallsOff" text="Wände ausblenden" />
+	+	<text name="action_flowControlCow" text="Flusskontrolle umschalten zu: Kuhstall" />
+	+	<text name="action_flowControlPig" text="Flusskontrolle umschalten zu: Schweinestall" />
+	+	<text name="action_flowControlBGATank1" text="Ventil von Gärreste-Tank 2 öffnen" />
+	+	<text name="action_flowControlBGATank2" text="Ventil von Gärreste-Tank 1 öffnen" />
+	+	<text name="action_openBottleShelfDoor" text="Gasflaschenlager öffnen" />	
+	+	<text name="action_closeBottleShelfDoor" text="Gasflaschenlager schliessen" />
+	+	<text name="action_turnOnWarmLights" text="Wärmelampen einschalten" />
+	+	<text name="action_turnOffWarmLights" text="Wärmelampen ausschalten" />
+	+	<text name="info_AnimalsUnload" text="Tiere entladen" />
+	+	<text name="info_AnimalsLoad" text="Tiere aufladen" />
+	+	<text name="action_openCatchingBox" text="Fangstand öffnen" />
+	+	<text name="action_closeCatchingBox" text="Fangstand schließen" />
+	
+		<!-- Filltypes -->
+		<text name="fillType_clover" text="Klee" />	
+		<text name="fillType_compost" text="Kompost" />	
+		<text name="fillType_biomass" text="Biomasse" />	
+		<text name="fillType_wholeGrain" text="Getreideschrot" />	
+		<text name="fillType_deadAnimal" text="Tier Kadaver" />	
+		<text name="fillType_rubinTT" text="Rubin® TT (Beize)" />	
+		<text name="fillType_cheese" text="Käse" />	
+		<text name="fillType_butter" text="Butter" />
+		<text name="fillType_lettuce" text="Kopfsalat" />
+		<text name="fillType_tomato" text="Tomate" />
+		<text name="fillType_redPepper" text="Paprika" />
+		<text name="fillType_lettuceSeedlings" text="Setzlinge (Salat)" />		
+		<text name="fillType_fertiPro" text="fertiPro®" />	
+		<text name="fillType_badmixture" text="Schlechter Mix" />	
+		<text name="fillType_nitrogen" text="Nitrogen" />	
+		<text name="fillType_phosphor" text="Phosphor" />	
+		<text name="fillType_potassium" text="Potassium" />
+		<text name="fillType_meatProducts" text="Fleisch" />
+		<text name="fillType_apple" text="Äpfel" />
+		<text name="fillType_pear" text="Birnen" />
+		<text name="fillType_badFeed" text="Falsche Mixture" />
+		<text name="fillType_maizeSilage" text="Silage (Mais/Silphie)" />
+		<text name="fillType_grassSilage" text="Silage (Gras)" />
+		<text name="fillType_goatMilk" text="Ziegenmilch" />
+		<text name="fillType_goatCheese" text="Ziegenkäse" />
+		<text name="fillType_rye" text="Roggen" />
+		<text name="fillType_flour" text="Roggenmehl" />
+		<text name="fillType_bread" text="Brot" />
+		<text name="fillType_breadDoughling" text="Brot Teigling" />
+		<text name="fillType_yeast" text="Hefe" />
+    	<text name="fillType_biogas" text="Biogas" />
+    	<text name="fillType_chaffMaize" text="Häckselgut (Mais)" />
+    	<text name="fillType_maizeStraw" text="Maisstroh" />
+		<text name="fillType_honeycombs_empty" text="Wabenrähmchen" />
+    	<text name="fillType_honeycombs_full" text="Honigwaben" />
+    	<text name="fillType_honey" text="Honig" />
+    	<text name="fillType_honeybees" text="Honigbienen" />
+    	<text name="fillType_forageNew" text="Mischration" />
+    	<text name="fillType_forage_wrapped" text="Mischration (gewickelt)" />
+    	<text name="fillType_dogFood" text="Hundefutter" />
+    	<text name="fillType_appleJuice" text="Apfelsaft" />
+    	<text name="fillType_wine" text="Apfelwein" />
+    	<text name="fillType_dryGrain" text="Getreide (getrocknet)" />
+    	<text name="fillType_spentGrain" text="Treber" />
+    	<text name="fillType_propan" text="Propan-Gas" />
+    	<text name="fillType_sperm" text="Bullensperma" />
+		<text name="fillType_lab" text="Labextrakt" />
+		<text name="fillType_fireWood" text="Brennholz" />
+		<text name="fillType_woodShavings" text="Hobelspäne" />
+		<text name="fillType_chickenFeed" text="Hühnerf." />
+	+	<text name="fillType_piglet" text="Ferkel" />
+	+	<text name="fillType_sucklingPig" text="Spanferkel" />
+	+	<text name="fillType_calfMilkPowder" text="Kälbermilchpulver" />
+	+	<text name="fillType_calfBreedingMilk" text="Kälberaufzuchtmilch" />
+	+	<text name="fillType_ePower" text="Akku" />
+	+	<text name="fillType_beetPulp" text="Rübenschnitzel" />
+	+	<text name="fillType_vegetableOil" text="Pflanzenöl" />
+	+	<text name="fillType_vegetableOilOld" text="Pflanzenöl (alt)" />
+	+	<text name="fillType_mayonnaise" text="Mayonnaise" />
+	+	<text name="fillType_animalFat" text="Tierisches Fett" />
+	+	<text name="fillType_chick" text="Küken" />
+	+	<text name="fillType_silphie" text="Durchwachsene Silphie" />
+	+	<text name="fillType_silphieChopped" text="Silphie (gehäckselt)" />
+		
+		<!-- Stations -->
+		<text name="station_animalDealer" text="Viehhändler (9-20 Uhr)" />	
+		<text name="station_animalDealerObjects" text="Viehhändler (Sackwaren) (9-20 Uhr)" />	
+		<text name="station_seedsSilo" text="Saatgut Silo" />	
+		<text name="station_liquidManureStation" text="Gülle Verkauf" />	
+	+	<text name="station_raiffeisenMisc" text="Raiffeisen (8-20 Uhr)" />	
+		<text name="station_raiffeisen" text="Raiffeisen (Schüttgut) (8-20 Uhr)" />	
+		<text name="station_raiffeisenObjects" text="Raiffeisen (BigBags/Kisten) (8-20 Uhr)" />	
+		<text name="station_grainMill" text="Kornmühle (8-22 Uhr)" />	
+		<text name="station_horseRanch" text="Pferdehof Fuchshausen (8-20 Uhr)" />	
+		<text name="station_horseRanch2" text="Pferdehof Hintertupfingen (8-20 Uhr)" />	
+		<text name="station_inn" text="Gasthaus (6-15 Uhr)" />	
+		<text name="station_carpentery" text="Schreinerei (9-20 Uhr)" />	
+		<text name="station_woodScrapsBuyingTrigger" text="Schreinerei - Holzabfälle" />	
+		<text name="station_skinner" text="Abdeckerei (24h)" />	
+		<text name="station_farmShop" text="Hofladen" />	
+		<text name="station_chemicalTank" text="Chemie Tank" />	
+		<text name="station_fertilizerTank" text="Dünger" />	
+		<text name="station_villageShop" text="Dorfladen (9-18 Uhr)" />	
+		<text name="station_biogasSellingPoint" text="LSFM Energie" />	
+		<text name="station_landMarket" text="Landhandel (10-17 Uhr)" />	
+		<text name="station_distillery" text="Brennerei (9-20 Uhr)" />	
+		<text name="station_church" text="Kirche (8-22 Uhr)" />	
+		<text name="station_maltFactory" text="Malzwerk (9-20 Uhr)" />	
+		<text name="station_spentGrainBuying" text="Malzwerk" />	
+		<text name="station_gardenShopObjects" text="Garten Zentrum (9-18 Uhr)" />	
+	+	<text name="station_bakeryShop" text="Bäckerei (0-4 Uhr)" />	
+	+	<text name="station_dairyFactory" text="Molkerei (8-23 Uhr)" />	
+	+	<text name="station_genex" text="GENEX (24h)" />	
+	+	<text name="station_spinneryFactory" text="Weberei (9-18 Uhr)" />	
+	+	<text name="station_gasStationShell" text="Tankstelle - Biogasankauf(24h)" />	
+	+	<text name="station_oilMill" text="Ölmühle (8-22 Uhr)" />	
+	+	<text name="station_vegetableOilTrigger" text="Speiseöl (alt)" />
+	+	<text name="station_animalFatTrigger" text="Tierfett (alt)" />
+		
+		<!-- Stations Households -->
+		<text name="station_household01" text="Wohnhaus - Familie Ritter" />	
+		<text name="station_household02" text="Wohnhaus - Familie Freisler" />	
+		<text name="station_household03" text="Wohnhaus - Familie Müller" />	
+		<text name="station_household04" text="Wohnhaus - Familie Meyer" />	
+		<text name="station_household05" text="Wohnhaus - Familie Geis" />	
+		<text name="station_household06" text="Wohnhaus - Familie Schröder" />	
+		<text name="station_household07" text="Wohnhaus - Familie Lehmann" />	
+		<text name="station_household08" text="Wohnhaus - Familie Schreiber" />	
+		
+		<!-- Hot Spots -->
+	#	<text name="hotSpot_vehicleShop" text="Händler (8-22 Uhr)" />	
+		<text name="hotSpot_cowPastureA" text="Kuhweide A" />	
+		<text name="hotSpot_cowPastureB" text="Kuhweide B" />	
+		<text name="hotSpot_cowPastureC" text="Kuhweide C" />	
+		<text name="hotSpot_pigbreedingPlants" text="Schweinezucht" />	
+		<text name="hotSpot_biogasPlant" text="Biogasanlage" />	
+		<text name="hotSpot_forestArea1" text="Forstgebiet 1" />	
+		<text name="hotSpot_forestArea2" text="Forstgebiet 2" />	
+	#	<text name="hotSpot_animalDealer" text="Viehhandel (9-20 Uhr)" />	
+		<text name="hotSpot_liquidManurePit" text="Güllelager" />	
+	#	<text name="hotSpot_dairy" text="Molkerei (8-23 Uhr)" />	
+	#	<text name="hotSpot_grainMill" text="Kornmühle (8-22 Uhr)" />	
+	#	<text name="hotSpot_spinneryFactory" text="Weberei (9-18 Uhr)" />	
+	#	<text name="hotSpot_inn" text="Gasthaus (6-15 Uhr)" />	
+		<text name="hotSpot_veggieFarm" text="Gemüseanbau" />	
+		<text name="hotSpot_carpentery" text="Schreinerei (9-20 Uhr)" />	
+	#	<text name="hotSpot_skinner" text="Abdeckerei (24h)" />	
+		<text name="hotSpot_horseRanch" text="Pferdehof (8-20 Uhr)" />	
+		<text name="hotSpot_cheeseDairy" text="Käserei" />	
+	#	<text name="hotSpot_butchery" text="Metzgerei (9-18 Uhr)" />	
+		<text name="hotspot_grainStorage" text="Getreidelager" />	
+		<text name="hotSpot_milkHouse" text="Milchhaus" />	
+		<text name="hotSpot_fruitGrove" text="Obsthain" />	
+		<text name="hotSpot_fruitPlantage" text="Obstplantage" />	
+		<text name="hotSpot_buildPlace" text="Baugrundstück" />	
+	#	<text name="hotSpot_cooperage" text="Böttcherei (9-18 Uhr)" />	
+		<text name="hotSpot_limePit" text="Kalkgrube" />	
+	#	<text name="hotSpot_bullBreeding" text="Bullenzucht" />	
+	#	<text name="hotSpot_slaughterHouse" text="Schlachthof (6-18 Uhr)" />	
+	+	<text name="hotSpot_gasTrader" text="Gashandel Huber (9-17 Uhr)" />	
+		
+		<!-- Animals -->
+		<text name="animals_cowStable" text="Kuhstall (Hof)" />	
+		<text name="animals_cowPasture01" text="Kuhweide A" />	
+		<text name="animals_cowPasture02" text="Kuhweide B" />	
+		<text name="animals_horseRanch" text="Pferdehof" />	
+		<text name="animals_horsePaddockA" text="Pferdekoppel A" />	
+		<text name="animals_pigStableBig01" text="Schweinezucht (Stall 1)" />	
+		<text name="animals_pigStableBig02" text="Schweinezucht (Stall 2)" />	
+		<text name="animals_pigStableBig03" text="Schweinezucht (Stall 3)" />	
+		<text name="animals_sheepStable" text="Schafstall" />
+		<text name="animals_farrowingPen" text="Abferkelstall" />
+	+	<text name="animals_horseStableBoxA" text="Pferdestall Box A" />
+	+	<text name="animals_horseStableBoxB" text="Pferdestall Box B" />
+		<text name="shopItem_deadAnimal" text="Tier Kadaver" />	
+		<text name="fillTypeGroup_power" text="Kraftfutter" />	
+		<text name="shopItem_goatBrown" text="Ziege (Braun)" />	
+		<text name="shopItem_goatWhite" text="Ziege (Weiss)" />	
+		<text name="shopItem_goatGrey" text="Ziege (Grau)" />	
+		<text name="shopItem_goatBlack" text="Ziege (Schwarz)" />	
+		<text name="fillType_goat" text="Ziege" />	
+		<text name="shopItem_ramBlack" text="Schafsbock" />	
+		<text name="fillType_ram" text="Schafsbock" />	
+		<text name="shopItem_duckBrown" text="Ente (Braun)" />	
+		<text name="shopItem_duckWhite" text="Ente (Weiss)" />	
+		<text name="shopItem_duckBlack" text="Ente (Schwarz)" />	
+		<text name="fillType_duck" text="Ente" />	
+		<text name="shopItem_pig2Red" text="Zuchtschwein (Rosa)" />	
+		<text name="shopItem_pig2White" text="Zuchtschwein (Hell)" />	
+		<text name="shopItem_pig2BlackWhite" text="Zuchtschwein (Schwarz/Weiß)" />	
+		<text name="shopItem_pig2Black" text="Zuchtschwein (Schwarz)" />	
+		<text name="fillType_pig2" text="Zuchtschwein" />	
+		<text name="ui_statisticView_pig2" text="Zuchtschweine" />
+		<text name="animal_calfZone" text="Kälberbereich" />
+		<text name="fillType_calf" text="Kalb" />
+		<text name="ui_statisticView_calf" text="Kälber" />	
+		<text name="shopItem_calfBrown" text="Kalb (Braun)" />	
+		<text name="shopItem_calfBrownWhite" text="Kalb (Braun/Weiß)" />	
+		<text name="shopItem_calfBlack" text="Kalb (Schwarz)" />	
+		<text name="shopItem_calfBlackWhite" text="Kalb (Schwarz/Weiß)" />				
+		<text name="animals_dogZone01" text="Hundebereich (Hof)" />
+		<text name="animals_dogZone02" text="Hundebereich (Plantage)" />
+	+	<text name="ui_statisticView_dog" text="Hunde" />
+		<text name="fillType_dog" text="Hund" />	
+		<text name="shopItem_dogJackRussel" text="Jack Russel Terrier" />
+		<text name="shopItem_dogSwissSenner" text="Großer Schweizer Sennenhund" />	
+	#	<text name="shopItem_youngBullBrown" text="Jungbulle (Braun)" />	
+	#	<text name="shopItem_youngBullBrownWhite" text="Jungbulle (Braun/Weiß)" />	
+	#	<text name="shopItem_youngBullBlack" text="Jungbulle (Schwarz)" />	
+	#	<text name="shopItem_youngBullBlackWhite" text="Jungbulle (Schwarz/Weiß)" />
+	+	<text name="shopItem_breedingBullBlackWhite" text="Zuchtbulle (Schwarz/Weiß)" />		
+		<text name="shopItem_cowBlackFix" text="Kuh (Schwarz)" />	
+	#	<text name="fillType_youngBull" text="Jungbulle" />
+	+	<text name="fillType_breedingBull" text="Zuchtbulle" />
+	#	<text name="ui_statisticView_younBull" text="Jungbullen" />
+	+	<text name="ui_statisticView_breedingBull" text="Zuchtbullen" />
+	# 	<text name="animals_youngBullStable01" text="Jungbullenstall (1)" />			
+	# 	<text name="animals_youngBullStable03" text="Jungbullenstall (3)" />			
+	+ 	<text name="animals_breedingBullStable" text="Zuchtbullenstall (2)" />			
+	 	<text name="animals_desaminationHouse" text="Sprunghalle" />
+	+	<text name="shopItem_cowBlackWhiteCalf" text="Kuh (Schwarz/Weiß/Kalbend)" />
+	+	<text name="shopItem_pigRedSow" text="Schwein (Rosa/Ferkelnd)" />
+		
+		<!-- Objects -->
+		<text name="shopItem_bigBagWholeGrain" text="Getreideschrot-BigBag" />	
+		<text name="function_bigBagWholeGrain" text="Wird benötigt zur Schweinefutterherstellung." />	
+		<text name="shopItem_bigBagChickenFood1" text="Hühnerfutter-BigBag" />	
+		<text name="shopItem_bigBagHorseFood1" text="Pferdefutter-BigBag" />	
+		<text name="shopItem_bigBagDryGrain" text="Getreide (getrocknet)-BigBag" />	
+		<text name="function_bigBagDryGrain" text="BigBag für Getrocknetes Getreide." />	
+		<text name="shopItem_bigBagSpentGrain" text="Treber-BigBag" />	
+		<text name="function_bigBagSpentGrain" text="BigBag für Treber. Treber ist ein Nebenprodukt bei der Malzherstellung und kann als Tierfutter verwendet werden." />	
+		<text name="shopItem_bigBagCompost" text="Kompost-BigBag" />	
+		<text name="function_bigBagCompost" text="BigBag für Kompost." />	
+		<text name="shopItem_bigBagPotato" text="Kartoffel-BigBag" />	
+		<text name="function_bigBagPotato" text="BigBag für Kartoffeln." />	
+		<text name="shopItem_bigBagWoodChips" text="Hackschnitzel-BigBag" />	
+		<text name="function_bigBagWoodChips" text="BigBag für Hackschnitzel." />	
+		<text name="shopItem_bigBagWoodShavings" text="Hobelspäne-BigBag" />	
+		<text name="function_bigBagWoodShavings" text="BigBag für Hobelspäne." />	
+		<text name="shopItem_bigBagForage" text="Mischfutter-BigBag" />	
+		<text name="function_bigBagForage" text="Kraftfutter für ihre Rinder." />
+	+	<text name="shopItem_bigBagBeetPulp" text="Rübenschnitzel-BigBag" />	
+	+	<text name="function_bigBagBeetPulp" text="Big Bag mit Rübenschnitzeln. Kann als Tierfutter verwendet werden." />	
+		<text name="shopItem_fillableBox" text="Große Plastikbox (Befüllbar)" />	
+		<text name="function_fillableBox" text="Befüllbare Mehrweg Plastikbox, Befüllung: Schaufel oder Anhänger (Kornschieber empfohlen)" />	
+		<text name="shopItem_fillableWoodBox" text="Holzkiste (Befüllbar)" />	
+		<text name="function_fillableWoodBox" text="Befüllbare Mehrweg Holzkiste, Befüllung: Schaufel oder Anhänger (Kornschieber empfohlen)" />	
+		<text name="shopItem_fillableCagebox" text="Gitterbox (Befüllbar)" />	
+		<text name="function_fillableCagebox" text="Befüllbare Mehrweg Gitterbox, Befüllung: Schaufel oder Anhänger (Kornschieber empfohlen)" />
+		<text name="shopItem_fillableBucket" text="Eimer" />	
+		<text name="function_fillableBucket" text="Wird benötigt für die Käse-Butter Herstellung, in der Käserei." />	
+		<text name="shopItem_fillableButterBarrel" text="Butterfass (Befüllbar)" />	
+		<text name="function_fillableButterBarrel" text="Wird benötigt für die Butter Herstellung." />	
+		<text name="shopItem_duckBathtub" text="Entenwanne" />	
+		<text name="function_duckBathtub" text="Flache Wanne zum verschönern des Hühner/Enten Geheges. Kann mit Wasser befüllt werden." />	
+		<text name="shopItem_transportPallet" text="Transport Palette" />	
+		<text name="function_transportPallet" text="Paletten können zum Transport von Objecten verwendet werden. Die Ladung kann mit Spanngurten gesichert werden." />	
+		<text name="configuration_stateTitle" text="Zustand" />	
+		<text name="configuration_new" text="Neu" />	
+		<text name="configuration_used" text="Gebraucht" />	
+		<text name="shopItem_woodChipsBag" text="Brennholzsack" />
+		<text name="function_woodChipsBag" text="Abgepacktes Brennholz im Sack, wird benötigt zum Befeuern des Backofens in der Backstube am Hof." />
+		<text name="shopItem_potatoSack" text="Kartoffelsack" />	
+		<text name="shopItem_woodChipsSack" text="Hackschnitzel Sack" />
+		<text name="shopItem_woodShavingsSack" text="Hobelspäne Sack" />
+		<text name="shopItem_grainSack" text="Hühnerfutter Sack" />	
+		<text name="shopItem_horseFoodSack" text="Pferdefutter Sack" />
+		<text name="shopItem_pigFoodSack" text="Schweinefutter Sack" />
+		<text name="shopItem_haySack" text="Heu Sack" />
+		<text name="shopItem_soybeanSack" text="Sojabohnen Sack" />
+		<text name="shopItem_compostSack" text="Komposterde Sack" />
+		<text name="shopItem_seedsSack" text="Saatgut Sack" />
+		<text name="shopItem_fertilizerSack" text="Dünger Sack" />
+		<text name="shopItem_limeSack" text="Kalk Sack" />
+		<text name="shopItem_milkCanFillable" text="Milchkanne (Befüllbar)" />
+		<text name="function_milkCanFillable" text="Milchkannen dienen dem Transport und der Aufbewahrung von Milch. Diese Kanne ist eine Mehrweg Milchkanne." />
+		<text name="shopItem_fruitBoxFillable" text="Obstkiste (Befüllbar)" />
+		<text name="function_fruitBoxFillable" text="Diese Kiste wird für die Obsternte benötigt, hierbei handelt es sich um eine Mehrwegkiste (wird beim Verkauf der Ware nicht mit verkauft)." />
+		<text name="shopItem_appleTree" text="Apfelbaum" />
+		<text name="shopItem_pearTree" text="Birnenbaum" />
+		<text name="function_fruitTrees" text="Obstbäume können auf der Map platziert werden, mit etwas Glück könnte der Baum auch Früchte tragen." />
+		<text name="shopItem_flourBag" text="Mehlsack" />
+		<text name="shopItem_bread" text="Brot" />
+		<text name="shopItem_breadDoughling" text="Brot Teigling" />
+		<text name="shopItem_yeast" text="Backhefe" />
+		<text name="function_yeast" text="Backhefe wird benötigt zur Herstellung von Brot." />
+		<text name="shopItem_breadBox" text="Brotkiste" />
+		<text name="function_breadBox" text="Eine Brotkiste wird zum Transport von Brot benötigt. (wird beim Verkauf der Ware nicht mit verkauft)." />
+		<text name="shopItem_seedlingsPallet_lettuce" text="Setzlinge (Salat)" />
+		<text name="function_seedlingsPallet_lettuce" text="Salat Setzlinge werden benötigt zum Anbau von Salat. Zur Verwendung in den LSFM Gewächshäusern." />
+		<text name="shopItem_vegetablesBoxFillable" text="Gemüsekiste (Befüllbar)" />
+		<text name="function_vegetablesBoxFillable" text="Wird für die Gemüseernte benötigt, hierbei handelt es sich um eine Mehrwegkiste (wird beim Verkauf der Ware nicht mit verkauft)." />
+		<text name="shopItem_fillableBigBox" text="BigBox" />
+		<text name="function_fillableBigBox" text="Diese Box kann zum Transportieren von Schüttgut, Obst oder Gemüse verwendet werden, hierbei handelt es sich um eine Mehrwegbox (wird beim Verkauf der Ware nicht mit verkauft)." />
+		<text name="configuration_valueBulk" text="Schüttgut" />
+		<text name="configuration_valueVegetablesGroup1" text="Salat" />
+		<text name="configuration_valueVegetablesGroup2" text="Tomaten/Paprika" />
+		<text name="configuration_valueFruitsGroup1" text="Äpfel/Birnen" />
+		<text name="configuration_valueEarthFruits" text="Kartoffeln/Rüben" />
+		<text name="shopItem_vegetablesCardBoardFillable" text="Gemüsekarton (Befüllbar)" />
+		<text name="function_vegetablesCardBoardFillable" text="Kartons werden für die Paprika und Tomatenernte benötigt, hierbei handelt es sich um einen Mehrwegkarton (wird beim Verkauf der Ware nicht mit verkauft)." />
+		<text name="shopItem_emptyHoneycombBox" text="Wabenrähmchen" />
+		<text name="function_emptyHoneycombBox" text="Wird benötigt für die Herstellung von Honig, hierbei handelt es sich um vorgefertigte Wabenrähmchen diese müssen in den Bienenkasten eingesetzt werden. Ein Bienenstock benötigt 2 dieser Kisten." />
+		<text name="shopItem_fullHoneycombBox" text="Bottich für Honigwaben" />
+		<text name="function_fullHoneycombBox" text="Wird benötigt zum entleeren der Bienenstöcke und zum Transport der Honigwaben. Hierbei handelt es sich um einen Mehrweg Bottich. Bitte beachten ein Bienenstock benötigt 2 dieser Bottiche um den Stock komplett zu entleeren." />
+		<text name="shopItem_beesBox" text="Honigbienen" />
+		<text name="function_beesBox" text="Wird benötigt für die Herstellung von Honig, hierbei handelt es sich um ein Bienenvolk mit ca. 20000 Bienen." />
+		<text name="shopItem_fillableHoneyBucket" text="Befüllbarer Honigeimer" />
+		<text name="function_fillableHoneyBucket" text="Wird benötigt zum Abfüllen des Honigs aus der Honig Schleuder, dieser Eimer ist ein Mehrweg Objekt und wird nicht mit verkauft." />
+		<text name="shopItem_fillableJuiceBarrel" text="Holzfass (befüllbar)" />
+		<text name="function_fillableJuiceBarrel" text="Wird benötigt zum Transport oder zur Aufbewahrung von Obstsaft." />
+		<text name="shopItem_gasBottle" text="Gasflasche" />
+		<text name="function_gasBottle" text="Eine Gasflasche gefüllt mit Propan-Gas, wird benötigt zum Befeuern von Gas betriebenen Anlagen." />
+	+	<text name="shopItem_biogasBottle" text="Gasflasche" />
+	+	<text name="function_biogasBottle" text="Eine Gasflasche gefüllt mit Biogas, wird benötigt zum Befeuern von Gas betriebenen Anlagen." />
+		<text name="shopItem_labCanister" text="Labextrakt" />
+		<text name="function_labCanister" text="Labextrakt flüssig ist ein Naturprodukt und wird für die Käseherstellung benötigt. Durch die Vielfalt der darin enthaltenen Enzyme ist Naturlab ein unentbehrlicher Bestandteil von qualitativ hochwertigem Käse." />
+		<text name="shopItem_ibcTank_fillable" text="IBC Tank (Befüllbar)" />
+		<text name="function_ibcTank_fillable" text="Ein IBC Tank wird verwendet zum Transport und zur Aufbewahrung von Flüssigeiten. IBC Tanks sind Mehrwegobjekte und können beliebig wieder verwendet werden." />
+		<text name="shopItem_ibcTank_fertilizer" text="Flüssigdünger" />
+		<text name="shopItem_ibcTank_herbicide" text="Pflanzenschutzmittel" />
+		<text name="shopItem_ibcTank_rubinTT" text="Rubin® TT" />
+		<text name="function_ibcTank_rubinTT" text="Rubin® TT ist eine Saatgutbeize für Getreide zur Erfassung von Samen- und bodenbürtigen Krankheiten. Dient als Beizmittel für den SeedMaster™." />
+		<text name="shopItem_woodShavingsPackage" text="Tiereinstreu" />
+		<text name="function_woodShavingsPackage" text="Dieses hochwertige Tiereinstreu erfüllt höchste Anforderungen bei der Aufzucht von Hühnern und Pferden. Es bietet eine Alternative zu losen Hobelspänen aus der Schreinerei." />
+	+	<text name="shopItem_baleStrawSmall" text="Strohballen (klein)" />
+	+	<text name="function_baleStrawSmall" text="Wird verwendet als Tiereinstreu in kleineren Ställen. Der Ballen hat eine geringe Kapazität und ist sehr handlich, durch sein geringes Gewicht kann dieser von Hand bewegt werden." />
+	+	<text name="shopItem_cryoBarrel" text="Kühlbehälter" />
+	+	<text name="function_cryoBarrel" text="Ein Kühlbehälter wird verwendet für den Transport und zur Aufbewahrung von Bullensperma. Bullensperma wird benötigt bei der Besamung von Kühen im Kuhstall. Von diesem Behälter stehen 2 Konfigurationen zur Auswahl, einmal als Leerbehälter (Mehrwegobjekt) oder ein bereits befüllter Behälter (Einwegobjekt)." />
+	+	<text name="shopItem_mediKitCalf" text="Calf+" />
+	+	<text name="function_mediKitCalf" text="Wachstumsförderndes Arzneimittel für Kälber. Wird benötigt falls sich ein Kalb nicht weiter befüllt. Bitte nur im Notfall und für kranke Kälber verwenden !" />
+	+	<text name="shopItem_calfMilkPowderBag" text="Milchpulver für Kälber" />
+	+	<text name="function_calfMilkPowderBag" text="Milchpulver zur Aufzucht von Kälbern. Das Milchpulver muss zunächst mit einem passenden Rührgerät und etwas Wasser angerührt werden." />
+	+	<text name="shopItem_fillableMayonnaiseBucket" text="Mayonnaise Eimer" />
+	+	<text name="function_fillableMayonnaiseBucket" text="Wird benötigt zum Abfüllen der selbst hergestellten Mayonnaise, dieser Eimer ist ein Mehrweg Objekt und wird nicht mit verkauft." />
+	+	<text name="shopItem_chickBox" text="Küken Transportbox" />
+	+	<text name="function_chickBox" text="Transportbox für Küken." />
+
+		<!-- Objects/FeedBags -->	
+	+	<text name="shopItem_feedBagDogFood" text="Hundefutter" />
+	+	<text name="function_feedBagDogFood" text="1A Premium Qualitäts Hunde Trockenfutter." />
+	+	<text name="shopItem_feedBagChickenFood" text="Hühnerfutter" />
+	+	<text name="function_feedBagChickenFood" text="Hühnerfutter Premium Qualität." />
+	
+		<!-- Fertilizer/Compost Expansion -->
+		<text name="shopItem_bigBagFertiPro" text="fertiPro® Granulat-BigBag" />	
+		<text name="function_bigBagFertiPro" text="fertiPro® ist eine Düngemittel Granulat und wird verwendet zur Flüssigdüngerherstellung im FertiMixer™" />	
+		<text name="shopItem_fertiMixerLQ" text="FertiMixerLQ™" />	
+		<text name="function_fertiMixerLQ" text="Mobile Mischstation zum Herstellen von Flüssigdünger. Zur Herstellung wird Wasser und fertiPro® Granulat benötigt. Die Frontladeraufnahme erleichtert den Transport des FertiMixers." />	
+		<text name="shopItem_fertiMixerSLD" text="FertiMixerSLD™" />	
+		<text name="function_fertiMixerSLD" text="Mobile Mischstation zum Herstellen von Feststoff Dünger. Zur Herstellung werden folgende Rohmaterialien benötigt, Stickstoff (N), Phosphor (P) und Kalium (K). Die Frontladeraufnahme erleichtert den Transport des FertiMixers." />	
+		<text name="shopItem_ingredientsDispenser" text="Dispenser Silo" />	
+		<text name="function_ingredientsDispenser" text="Platzierbares Dispenser Silo für kaufbare Rohmaterialen die zur Feststoffdüngemittel Herstellung benötigt werden." />
+		<text name="enterText_fertiMixerLQ" text="FertiMixerLQ bedienen" />	
+		<text name="enterText_fertiMixerSLD" text="FertiMixerSLD bedienen" />
+		<text name="enterText_compostMaster" text="CompostMaster bedienen" />		
+		
+		<!-- Base on Vehicles -->
+		<text name="shopItem_hayBarn" text="Strohgebläse" />	
+		<text name="enterText_haybarn" text="Strohgebläse bedienen" />	
+		<text name="typeDesc_automaticHayBarn" text="Strohgebläse" />	
+		<text name="enterText_vertiMix" text="VertiMix bedienen" />	
+		<text name="NEEDED_MIXING_TIME" text="Verarbeitungszeit:" />	
+		<text name="headerText_vertimixTMR" text="Mischverhältnis (TMR):" />	
+		<text name="headerText_vertimixPIG" text="Mischverhältnis (Schweinefutter):" />	
+		<text name="info_tipSidePipe" text="Rohrentleerung" />	
+		<text name="info_tipSideSilo" text="Überladen in Schweinefutter Silo" />	
+		<text name="enterText_baleStorage" text="Ballenlager bedienen" />	
+		<text name="enterText_seedMaster" text="SeedMaster bedienen" />	
+		<text name="shopItem_grainMill" text="Kornmühle" />	
+		<text name="shopItem_hayDryer" text="Heutrockner" />	
+		<text name="typeDesc_hayDryer" text="Heutrockner" />	
+		<text name="enterText_hayDryer" text="Heutrockner bedienen" />	
+		<text name="headerText_hayDryer" text="Heutrockner" />	
+		<text name="motor_hayDryer" text="Heutrockner" />	
+		<text name="shopItem_hayDryerOverloadModul" text="Heutrockner Überlademodul" />	
+		<text name="switch_to_english" text="Sprache ändern, zu English" />	
+		<text name="switch_to_german" text="Sprache ändern, zu Deutsch" />	
+		<text name="info_tipSideDryer" text="Entnahme aus Trockenkammer" />	
+		<text name="info_tipSideStorage" text="Entnahme aus Heukammer" />	
+		<text name="info_tipSideOverload" text="Überladen in Heukammer" />	
+		<text name="enterText_bigBagMax" text="BigBag Max bedienen" />
+		<text name="enterText_milkingParlour" text="Melkstand bedienen" />	
+		<text name="shopItem_milkingParlour" text="Melkstand" />	
+		<text name="typeDesc_milkingParlour" text="Melkstand" />	
+		<text name="motor_milkingParlour" text="Melkstand" />	
+		<text name="enterText_milkRobot" text="Melkroboter bedienen" />	
+		<text name="shopItem_milkRobot" text="Melkroboter" />	
+		<text name="typeDesc_milkRobot" text="Melkroboter" />	
+		<text name="motor_milkRobot" text="Melkroboter" />
+		<text name="enterText_mapStorageSilo" text="Silo bedienen" />	
+		<text name="triggerMode_on" text="auf Trigger Entleerung umschalten" />	
+		<text name="triggerMode_off" text="auf Rohr Entleerung umschalten" />	
+		<text name="function_fordTransit" text="Mit einem Lieferwagen kannst du Waren und Stückgut transportieren. Weitere Konfigurationen im Shop möglich." />	
+		<text name="typeDesc_fordTransit" text="Ford Transit" />
+		<text name="shopItem_honeyExtractor" text="Honigschleuder" />	
+		<text name="enterText_honeyExtractor" text="Honigschleuder bedienen" />	
+		<text name="function_honeyExtractor" text="Wird benötigt zum Ausschleudern der Honigwaben aus den Bienenstöcken. Zum Abfüllen des Honigs wird ein Honigeimer benötigt. Der Honig kann dann an einer passenden Verkaufstelle verkauft werden." />			
+		<text name="headerText_honeyExtractor" text="Honig Schleuder" />			
+		<text name="shopItem_fruitPress" text="Juice Master™" />	
+		<text name="enterText_fruitPress" text="Obstpresse bedienen" />	
+		<text name="function_fruitPress" text="Wird benötigt zur Herstellung von Apfelsaft. Zum abfüllen des gepressten Apfelsaftes wird ein Holzfass vom Händler benötigt." />			
+		<text name="headerText_fruitPress" text="Juice Master™" />
+		<text name="shopItem_waterPoint01" text="Wasserstelle - Bäckerei" />	
+		<text name="shopItem_waterPoint02" text="Wasserstelle - Waschplatz" />
+	#	<text name="shopItem_waterPoint03" text="Wasserstelle" />
+		<text name="shopItem_baggingMachine" text="Bagging Master™" />	
+		<text name="enterText_baggingMachine" text="Absackmaschine bedienen" />	
+		<text name="function_baggingMachine" text="Mit dieser Maschine kann loses Material in handliche Säcke abgefüllt werden. Befüllbar ist sie per Kornschieber oder mit einem BigBag. Zum Transport der Maschine kann eine Palettengabel und ein Plattform Anhänger verwendet werden." />		
+		<text name="configuration_weightPlateTitle" text="Gewichtsplatte" />		
+		<text name="configuration_valueWoodPlate" text="Holzbohlen" />		
+		<text name="configuration_valueMetallPlate" text="Metallplatte" />		
+	+	<text name="shopItem_hoseHolderSmallSingle" text="Schlauchhalter (schmal 1fach)" />		
+	+	<text name="enterText_leadableAnimalCalf" text="Kalb führen" />		
+	+	<text name="leadableAnimalCalf_turnOnText" text="Bewegungsmodus ein" />		
+	+	<text name="leadableAnimalCalf_turnOffText" text="Bewegungsmodus aus" />		
+	+	<text name="shopItem_chargeStation01" text="Ladestation" />		
+			
+		<!-- Vehicle Storages -->
+		<text name="shopItem_universalStorageSilo" text="Universal Silo" />	
+		<text name="shopItem_milkStorageTank" text="Milch Lagertank" />	
+		<text name="shopItem_milkHouseTank" text="Milchhaus Lagertank" />
+		<text name="shopItem_cheeseHouseMilkTank" text="Milchtank" />
+	
+		<!-- Vehicles -->	
+		<text name="function_siloHopper" text="Wird verwendet zum Befüllen der stationären Lagersilos auf der Hof Bergmann Map." />	
+		<text name="shopItem_butterMax" text="Buttermaschine" />	
+		<text name="function_butterMax" text="Wird zur Herstellung von Butter verwendet. Hinweis: Es wird ein leeres Butterfass benötigt um die produzierte Butter abzufüllen." />	
+		<text name="headerText_butterMax" text="Buttermaschine" />	
+		<text name="enterText_butterMax" text="Buttermaschine bedienen" />	
+		<text name="shopItem_fuelStorage" text="Diesellager" />	
+		<text name="shopItem_liquidManureStorage" text="Güllelager" />	
+	+	<text name="typeDesc_liquidManureStorage" text="Güllelager" />	
+	+	<text name="enterText_liquidManureStorage" text="Gülleflussventil bedienen" />	
+	+	<text name="shopItem_bioGasPlantDigestatePart" text="Gärreste Sammeltank" />	
+	+	<text name="typeDesc_bioGasPlantDigestatePart" text="Gärreste Sammeltank" />	
+	+	<text name="enterText_bioGasPlantDigestatePart" text="Ventilsteuerung: Gärreste Tank" />	
+		<text name="typeDesc_production" text="Produktion" />
+		<text name="startFillText_milkingParlour" text="Melkvorgang starten" />	
+		<text name="stopFillText_milkingParlour" text="Melkvorgang beenden" />
+		<text name="function_feederExtented" text="Dieser Futtermischwagen mischt Maissilage, Heu und Stroh zu TMR (Bestehend aus 60% Basisfutter und 40% Kraftfutter), um dies dann direkt an die Kühe zu verfüttern." />
+	+	<text name="shopItem_mobileMilkingStand" text="Mobiler Melkstand" />
+	+	<text name="function_mobileMilkingStand" text="Dieser Mobile Melkstand wird benötigt um auf den Kuhweiden seine Kühe zu melken." />
+	+	<text name="typeDesc_mobileMilkStand" text="Mobiler Melkstand" />
+	+	<text name="enterText_mobileMilkingStand" text="Melkstand bedienen" />
+	+	<text name="shopItem_pushableMixerWagon" text="Futtermischwagen"/>
+    +   <text name="shopItem_milkShuttle" text="MilkShuttle"/>
+	+	<text name="function_pushableMixerWagon" text="Ein kleiner Elektro Futtermischwagen zum Schieben. Dieser Futtermischer ist ausschließlich zur Schweinefutter Herstellung geeignet."/>
+	+	<text name="function_milkShuttle" text="Ein MilkShuttle/Milchtaxi wird verwendet zur Versorgung von Kälbern. Zur Herstellung von Kälberaufzuchtmilch wird Wasser und Milchpulver benötigt dieses ist separat erhältlich."/>
+	+	<text name="typeDesc_pushableMixerWagon" text="Futtermischwagen"/>
+	+	<text name="typeDesc_milkShuttle" text="MilkShuttle"/>
+	+	<text name="headerText_pushableMixerWagon" text="Mischverhältnis:"/>
+	+	<text name="enterText_pushableMixerWagon" text="Futtermischwagen bedienen !"/>
+	+	<text name="headerText_milkShuttle" text="Mischverhältnis:"/>
+	+	<text name="enterText_milkShuttle" text="MilkShuttle bedienen !"/>
+	
+		<!-- Fliegl Animal Transport Pack -->
+		<text name="category_flieglAnimalTransportPack" text="Fliegl Viehtransport Pack" />	
+		<text name="name_flieglAnimalTruck" text="TGX 26.000 Vieh" />	
+		<text name="function_animalTruck" text="Viehtransporter aus dem Hause MAN in Kooperation mit Fliegl." />	
+		<text name="typeDesc_animalTruck" text="Viehtransporter" />	
+		<text name="name_flieglAnimalTrailer" text="Viehanhänger" />	
+		<text name="name_flieglAnimalTrailerDS" text="Viehanhänger DS" />	
+		<text name="unfold_FLAP" text="Heckklappe öffnen" />	
+		<text name="fold_FLAP" text="Heckklappe schliessen" />	
+		<text name="configuration_backSteering" text="Lenkachse" />	
+		<text name="configuration_cabColor" text="Kabinenfarbe" />	
+		<text name="configuration_coverColor" text="Planenfarbe" />	
+		<text name="configuration_buildUpColor" text="Aufbaufarbe" />
+		
+		<!-- LSFM AT Mini -->
+		<text name="configuration_inputAttacherToolbar" text="Ackerschiene" />	
+		<text name="configuration_inputAttacherPullingMouth" text="Zugmaul" />	
+
+		<!-- Strautmann SEK802 -->
+		<text name="configuration_valueLoadingWagonP" text="Plattform" />	
+		<text name="configuration_valueLoadingWagonPBW" text="Plattform + Bordwände" />	
+		<text name="function_specialTipper" text="Besonderheiten: Konfigurierbar als Plattform Anhänger mit zusätztlichen Bordwänden für tragbare Objekte ohne das diese automatisch entleert werden." />	
+		
+		<!-- Big Bags -->
+		<text name="shopItem_bigBagChickenFeed" text="Hühnerfutter-BigBag" />	
+		<text name="function_bigBagChickenFeed" text="Kraftfutter für deine Hühner." />	
+		<text name="shopItem_bigBagCowFeed" text="Mischfutter-BigBag" />	
+		<text name="function_bigBagCowFeed" text="Spezial Fertigmischung für alle Rinderarten." />	
+		<text name="shopItem_bigBagHorseFeed" text="Pferdefutter-BigBag" />	
+		<text name="function_bigBagHorseFeed" text="Kraftfutter für deine Pferde." />	
+		<text name="shopItem_bigBagPigFeed" text="Schweinefutter-BigBag" />	
+		<text name="function_bigBagPigFeed" text="Fertigmischung für Schweine." />	
+		<text name="shopItem_bigBagLifter" text="BigBag Lifter" />	
+		<text name="typeDesc_bigBagLifter" text="BigBag Lifter" />	
+		<text name="function_bigBagLifter" text="Anbau Werkzeug zum Heben und Transportieren der LSFM BigBags. Passende Aufnahmen sind im Shop konfigurierbar, somit ist dieses Werkzeug mit allen Lader Typen kompatibel." />	
+		<text name="function_bigBagChickenFood" text="Weizen ist das ideale Futter für deine Hühner." />	
+		<text name="configuration_valueBlack" text="Schwarz" />	
+
+		<!-- LSFM ATTACHMENT TOOLS -->
+		<text name="shopItem_adjustableFrontloaderPalletFork" text="Verstellbare Palettengabel" />		
+		<text name="function_adjustableFrontloaderPalletFork" text="Palettengabel mit verstellbaren Gabelzinken. Passend für alle Frontladeraufnahmen." />		
+		<text name="shopItem_adjustableSkidSteerPalletFork" text="Verstellbare Palettengabel" />		
+		<text name="combinations_skidSteer" text="Kompaktlader" />		
+		<text name="function_adjustableSkidSteerPalletFork" text="Palettengabel mit verstellbaren Gabelzinken. Passend für alle Kompaktladeraufnahmen." />	
+		<text name="shopItem_lsfmUniversalHighDumpBucket" text="Universal Hochkippschaufel" />		
+		<text name="function_lsfmUniversalHighDumpBucket" text="Universelle Hochkippschaufel. Passend für alle Front/Kompaktlader Aufnahmen." />
+		<text name="shopItem_lsfmTelehandlerFork" text="Verstellbare Palettengabel" />		
+		<text name="function_adjustableTelehandlerPalletFork" text="Palettengabel mit verstellbaren Gabelzinken. Passend für alle Teleskopladeraufnahmen." />	
+		<text name="combinations_telehandler" text="Teleskoplader" />
+		<text name="shopItem_lsfmUniversalHighDumpBucketMini" text="Mini Hochkippschaufel" />		
+		<text name="function_lsfmUniversalHighDumpBucketMini" text="Mini Hochkippschaufel." />		
+		<text name="shopItem_adjustableFrontloaderPalletForkMini" text="Verstellbare Palettengabel Mini" />		
+		<text name="function_adjustableFrontloaderPalletForkMini" text="Palettengabel mit verstellbaren Gabelzinken." />		
+		
+		<!-- Placeables -->
+		<text name="storageSilo_universal" text="Universal Lagersilo" />	
+		<text name="function_storageSilo_universal" text="Universelles Lagersilo, kann für fast alle Filltypen verwendet werden. Zum Befüllen des Silos muss der Deckel geöffnet werden." />	
+		<text name="storageSilo_pigFood" text="Schweinefutter Silo" />
+		<text name="shopItem_portManhole" text="Gullyschacht" />
+		<text name="function_portManhole" text="Platzierbarer Gullyschacht, hier können alle Flüssigkeiten entsorgt werden. Aber Achtung Umweltverschmutzung wird mit einem Bußgeld geahndet." />
+		<text name="storage_milkHouse" text="Milchhaus/Milchlager" />
+	#	<text name="shopItem_bunkerSiloMaizeSilage" text="Bunkersilo - Silage (Mais/Silphie)" />
+	#	<text name="shopItem_bunkerSiloGrassSilage" text="Bunkersilo - Silage (Gras)" />
+	#	<text name="function_bunkerSiloMaizeSilage" text="Bunker Silo zur Herstellung von Silage (Mais/Silphie)" />
+	#	<text name="function_bunkerSiloGrassSilage" text="Bunker Silo zur Herstellung von Silage (Gras)." />
+		<text name="shopItem_oldFarmShed" text="Alter Unterstand" />
+		<text name="function_oldFarmShed" text="Ein platzierbarer alter Unterstand. Hier kannst du deine Fahrzeuge drunter abstellen oder auch Ballen Lagern." />
+	#	<text name="shopItem_foodDispenserSilo" text="Futterspender Silo (klein)" />
+	+	<text name="shopItem_foodDispenserSiloLarge" text="Futterspender Silo (groß)"/>	
+		<text name="function_foodDispenserSilo" text="Lagersilo für verschiedene Futterarten, muss vorher mit Futter befüllt werden. Hinweise: Zum Befüllen muss die Klappe am Abkipp Platz geöffnet werden. Zum Entleeren muss zunächst der Siloschieber geöffnet werden." />	
+	+	<text name="shopItem_bigBagFrame" text="BigBag Gestell" />
+	+	<text name="function_bigBagFrame" text="Ein BigBag Gestell wird verwendet um die LSFM BigBags darauf abzustellen, diese einfache Methode ermöglicht es einen BigBag direkt in eine Schubkarre zu entleeren. Zum befüllen der Schubkarre muss diese einfach unter das Gestell gefahren werden." />
+	+	<text name="shopItem_ibcTankFrame" text="IBC-Tank Gestell" />
+	+	<text name="function_ibcTankFrame" text="Ein IBC-Tank Gestell wird verwendet um die LSFM IBC-Tanks darauf abzustellen, diese einfache Methode ermöglicht es einen Eimer direkt am IBC-Tank zu befüllen." />
+	+	<text name="shopItem_freelandSiloGrass" text="Freilandsilo - Silage (Gras)" />
+	+	<text name="function_freelandSiloGrass" text="Freilandsilo zur Herstellung von Silage (Gras)." />
+	+	<text name="shopItem_freelandSiloMaize" text="Freilandsilo - Silage (Mais/Silphie)" />
+	+	<text name="function_freelandSiloMaize" text="Freilandsilo zur Herstellung von Silage (Mais/Silphie)." />
+		
+		<!-- Decoration -->
+		<text name="shopItem_gnome" text="Gartenzwerg" />	
+
+		<!-- Seasons -->
+		<text name="seasons_shopItem_RAM_TYPE_BLACK" text="Schafsbock" />
+		<text name="seasons_shopItem_GOAT_TYPE_BROWN" text="Ziege (Braun)" />
+		<text name="seasons_shopItem_GOAT_TYPE_WHITE" text="Ziege (Weiß)" />
+		<text name="seasons_shopItem_GOAT_TYPE_BLACK" text="Ziege (Schwarz)" />
+		<text name="seasons_shopItem_PIG2_TYPE_RED" text="Zuchtschwein (Rosa)" />
+		<text name="seasons_shopItem_PIG2_TYPE_WHITE" text="Zuchtschwein (Hell)" />
+		<text name="seasons_shopItem_DUCK_TYPE_BROWN" text="Ente (Braun)" />
+		<text name="seasons_shopItem_DUCK_TYPE_WHITE" text="Ente (Weiß)" />
+		<text name="seasons_shopItem_DUCK_TYPE_BLACK" text="Ente (Schwarz)" />
+		<text name="seasons_shopItem_DOG_TYPE_BIGSWISSSENNER" text="Großer Schweizer Sennenhund" />
+		<text name="seasons_shopItem_DOG_TYPE_JACKRUSSEL" text="Jack Russel Terrier" />
+	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Kuh (Schwarz/Weiß/Kalbend)" />	
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK" text="Jungbulle (Schwarz)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK_WHITE" text="Jungbulle (Schwarz/Weiß)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN" text="Jungbulle (Braun)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN_WHITE" text="Jungbulle (Braun/Weiß)" />
+	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Zuchtbulle (Schwarz/Weiß)" />
+	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Schwein (Rosa/Ferkelnd)" />
+		<text name="seasons_animalInfo_RAM_TYPE_BLACK" text="Schafsbock" />
+		<text name="seasons_animalInfo_GOAT_TYPE_BROWN" text="Ziege (Braun)" />
+		<text name="seasons_animalInfo_GOAT_TYPE_WHITE" text="Ziege (Weiß)" />
+		<text name="seasons_animalInfo_GOAT_TYPE_BLACK" text="Ziege (Schwarz)" />
+		<text name="seasons_animalInfo_PIG2_TYPE_RED" text="Zuchtschwein (Rosa)" />
+		<text name="seasons_animalInfo_PIG2_TYPE_WHITE" text="Zuchtschwein (Hell)" />
+		<text name="seasons_animalInfo_DUCK_TYPE_BROWN" text="Ente (Braun)" />
+		<text name="seasons_animalInfo_DUCK_TYPE_WHITE" text="Ente (Weiß)" />
+		<text name="seasons_animalInfo_DUCK_TYPE_BLACK" text="Ente (Schwarz)" />
+		<text name="seasons_animalInfo_DOG_TYPE_BIGSWISSSENNER" text="Großer Schweizer Sennenhund" />
+		<text name="seasons_animalInfo_DOG_TYPE_JACKRUSSEL" text="Jack Russel Terrier" />
+	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Kuh (Schwarz/Weiß/Kalbend)" />	
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK" text="Jungbulle (Schwarz)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK_WHITE" text="Jungbulle (Schwarz/Weiß)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN" text="Jungbulle (Braun)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN_WHITE" text="Jungbulle (Braun/Weiß)" />
+	+	<text name="seasons_animalInfo_BREEDINGBULL_TYPE_BLACK_WHITE" text="Zuchtbulle (Schwarz/Weiß)" />	
+	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Schwein (Rosa/Ferkelnd)" />
+		
+		<!-- Object Storages by GTX - BaleStorages -->
+		<text name="category_baleStorages" text="Ballenlager" />	
+		<text name="ui_nextObjectLevel" text="Nächstes Objekt" />
+		<text name="input_BALEMENU" text="Ballenlager Menü" />		
+		<text name="shopItem_roundBaleStorageStraw" text="Rundballen Lager (Stroh)" />	
+		<text name="function_roundBaleStorageStraw" text="Ein Ballenlager für Stroh-Rundballen. Hinweis: Ballen sind nicht enthalten." />	
+		<text name="shopItem_roundBaleStorageHayHB" text="Rundballen Lager (Heu)" />	
+		<text name="function_roundBaleStorageHay" text="Ein Ballenlager für Heu-Rundballen. Hinweis: Ballen sind nicht enthalten." />	
+	#	<text name="shopItem_roundBaleStorageSilage" text="Rundballen Lager Silage (Gras)" />	
+	#	<text name="function_roundBaleStorageSilage" text="Ein Ballenlager für Silage (Gras) Rundballen. Hinweis: Ballen sind nicht enthalten." />	
+		<text name="shopItem_roundBaleStorageForage" text="Rundballen Lager (Mischfutter)" />	
+		<text name="function_roundBaleStorageForage" text="Ein Ballenlager für Mischfutter-Rundballen. Hinweis: Ballen sind nicht enthalten." />
+	#	<text name="shopItem_roundBaleStorageMaizeSilage" text="Rundballen Lager Silage (Mais/Silphie)" />	
+	#	<text name="function_roundBaleStorageMaizeSilage" text="Ein Ballenlager für Silage (Mais/Silphie) Rundballen. Hinweis: Ballen sind nicht enthalten." />	
+		<text name="shopItem_roundBaleStorageMaizeStraw" text="Rundballen Lager (Maisstroh)" />	
+		<text name="function_roundBaleStorageMaizeStraw" text="Ein Ballenlager für Maisstroh-Rundballen. Hinweis: Ballen sind nicht enthalten." />	
+		
+		<text name="shopItem_squareBaleStorageHayHB" text="Quaderballen Lager (Heu)" />	
+		<text name="function_squareBaleStorageHay" text="Ein Ballenlager für Heu-Quaderballen. Hinweis: Ballen sind nicht enthalten." />	
+		<text name="shopItem_squareBaleStorageStraw" text="Quaderballen Lager (Stroh)" />	
+		<text name="function_squareBaleStorageStraw" text="Ein Ballenlager für Stroh-Quaderballen. Hinweis: Ballen sind nicht enthalten." />	
+		<text name="shopItem_squareBaleStorageSilage" text="Quaderballen Lager Silage (Gras)" />	
+		<text name="function_squareBaleStorageSilage" text="Ein Ballenlager für Silage (Gras) Quaderballen. Hinweis: Ballen sind nicht enthalten." />
+		<text name="shopItem_squareBaleStorageForage" text="Quaderballen Lager (Mischfutter)" />	
+		<text name="function_squareBaleStorageForage" text="Ein Ballenlager für Mischfutter-Quaderballen. Hinweis: Ballen sind nicht enthalten." />
+		<text name="shopItem_squareBaleStorageMaizeSilage" text="Quaderballen Lager Silage (Mais/Silphie)" />	
+		<text name="function_squareBaleStorageMaizeSilage" text="Ein Ballenlager für Silage (Mais/Silphie) Quaderballen. Hinweis: Ballen sind nicht enthalten." />
+		<text name="shopItem_squareBaleStorageMaizeStraw" text="Quaderballen Lager (Maisstroh)" />	
+		<text name="function_squareBaleStorageMaizeStraw" text="Ein Ballenlager für Maisstroh-Quaderballen. Hinweis: Ballen sind nicht enthalten." />
+		
+	#	<text name="shopItem_squareBaleStorageStrawHS" text="Quaderballen Lager (Heu) - Dachboden" />		
+	+	<text name="shopItem_squareBaleStorageStrawPS" text="Quaderballen Lager (Stroh) - Dachboden" />		
+		<text name="shopItem_baleRoundStoragePressCorridor" text="Rundballen Zwischenlager" />		
+		<text name="shopItem_baleSquareStoragePressCorridor" text="Quaderballen Zwischenlager" />		
+	
+		<!-- Object Storages by GTX - Shelfs -->
+		<text name="shopItem_woolShelf" text="Wollballen Regal" />
+		<text name="input_WOOLBALEMENU" text="Wollballen Verwaltungsmenü" />	
+		<text name="unit_woolBales" text="Wollballen" />	
+	    
+		<text name="shopItem_cheeseShelf" text="Käseregal" />
+		<text name="input_CHEESESHELFMENU" text="Käseregal Verwaltungsmenü" />	
+		<text name="unit_cheeseLoaves" text="Käselaibe" />
+				
+		<text name="shopItem_bakingMaterialShelf" text="Lagerregal für Backzutaten" />
+		<text name="input_BAKINGMATERIALSHELFMENU" text="Lagerregal Verwaltungsmenü" />
+		<text name="unit_yeastPackages" text="Hefe Kartons" />
+		<text name="unit_flourBags" text="Mehlsäcke" />
+	
+		<text name="input_WOODCHIPSBAG_SHELFMENU" text="Lagerregal Verwaltungsmenü" />	
+		<text name="shopItem_woodChipsShelf" text="Lagerregal für Hackschnitzel" />
+		<text name="unit_woodChipsBag" text="Hackschnitzel Säcke" />
+		<text name="shopItem_cellarStorageShelf" text="Lagerregal (Keller)" />
+
+		<text name="input_WINEBARREL_SHELFMENU" text="Fasslager Verwaltungsmenü" />	
+		<text name="shopItem_wineBarrelShelf" text="Lager für Weinfässer" />
+
+		<text name="shopItem_spermFridge" text="Sperma Kühlschrank" />
+		<text name="input_SPERMFRIDGEMENU" text="Kühlschrank Verwaltungsmenü" />	
+		<text name="unit_spermBuckets" text="Sperma Behälter" />
+
+		<text name="shopItem_labWallRack" text="Lab Wandregal" />
+		<text name="input_LABWALLRACKMENU" text="Lab Wandregal Verwaltungsmenü" />	
+		<text name="unit_labCanisters" text="Lab Kanister" />
+	
+		<text name="shopItem_atticStorage" text="Dachboden Lager" />
+		<text name="input_ATTICSTORAGEMENU" text="Dachboden Lager Verwaltungsmenü" />
+	 	<text name="unit_bigBags" text="Big-Bags" />	
+	 	<text name="unit_pallets" text="Paletten" />	
+	 	<text name="unit_ibcTanks" text="IBC Tanks" />	
+
+		<text name="shopItem_atticStorageChickenStable" text="Dachbodenlager - Hühnerstall" />
+		<text name="unit_sacks" text="Säcke" />
+
+	+	<text name="shopItem_gasBottleStorageShelf" text="Gasflaschen Lager" />
+		<text name="input_GASBOTTLESHELFMENU" text="Gasflaschen Lager Verwaltungsmenü" />	
+
+	+	<text name="shopItem_coolingHouse" text="Kühlhaus" />
+		<text name="input_COOLINGHOUSEMENU" text="Kühlhaus Verwaltungsmenü" />	
+		<text name="unit_eggBoxes" text="Eierkartons" />	
+		<text name="unit_milkCans" text="Milchkannen" />	
+		<text name="unit_sucklingPigs" text="Spanferkel (Roh)" />
+
+	+	<text name="shopItem_horseStableStorage" text="Lagerplatz - Einstreu" />
+		<text name="input_STORAGEPLACEMENU" text="Lagerplatz Verwaltungsmenü" />	
+
+	+	<text name="shopItem_calfMilkPowderShelf" text="Lagerregal - Milchpulver" />
+		<text name="input_SHELFMENU" text="Lagerregal Verwaltungsmenü" />	
+
+	+	<text name="shopItem_mayoRefrigerator" text="Kühlschrank" />
+		<text name="input_REFRIGERATORMENU" text="Kühlschrank Verwaltungsmenü" />	
+		<text name="unit_mayonnaiseBuckets" text="Mayonnaise Eimer" />	
+	
+		<!-- FillTypeConverter based Script by GTX -->
+		
+		<!-- FixFermenter -->
+		<text name="shopItem_fixFerm" text="FixFermenter" />	
+		<text name="input_fixFerm" text="Unfermentiert:" />	
+		<text name="output_fixFerm" text="Fermentiert:" />	
+		
+		<!-- BakeHouse -->		
+		<text name="shopItem_doughMixer" text="Teigknetmaschine" />	
+		<text name="doughMixer_input_water" text="Benötigt: 1 Eimer Wasser" />	
+		<text name="doughMixer_input_flour" text="Benötigt: ca. 1/2 Sack Mehl" />	
+		<text name="doughMixer_input_yeast" text="Benötigt: 1 Päckchen Hefe" />	
+		<text name="output_doughMixer" text="Teiglinge:" />	
+		<text name="unit_doughlings" text="Teiglinge" />	
+		
+		<text name="shopItem_bakingOven" text="Backofen (Brot)" />	
+		<text name="bakingOven_input1" text="Brennstoffe:" />	
+		<text name="bakingOven_input2" text="Brot Teiglinge:" />	
+		<text name="bakingOven_output" text="gebackenes Brot:" />	
+		<text name="unit_bread" text="Brote:" />
+		
+		<!-- Butchery -->
+		<text name="shopItem_slaughterHouse" text="Metzgerei - Schlachthaus" />
+		<text name="slaughterHouse_input" text="Angeliefertes Schlachtvieh in Kg:" />
+	+	<text name="slaughterHouse_input2" text="Angelieferte Ferkel:" />
+		<text name="slaughterHouse_output" text="Produkt:" />
+		<text name="unit_meatBoxes" text="Fleischkisten" />
+
+		<!-- SlaughterHouse -->	
+	#	<text name="shopItem_slaughterHouseFactory" text="Schlachthof" />
+				
+		<!-- BiogasPlant -->
+		<text name="shopItem_bgp" text="Fliegl-BioMat" />
+		<text name="input1_bioGasPlant" text="Substrat (fest):" />
+		<text name="input2_bioGasPlant" text="Substrat (flüssig):" />
+		<text name="output1_bioGasPlant" text="Gärreste:" />
+		<text name="output2_bioGasPlant" text="Biogas Produktion:" />
+	
+		<!-- Greenhouses -->
+		<text name="shopItem_lsfm_greenhouseLettuce" text="Gewächshaus - Salat" />
+		<text name="shopItem_lsfm_greenhouseTomatoes" text="Gewächshaus - Tomaten" />
+		<text name="shopItem_lsfm_greenhouseRedPeppers" text="Gewächshaus - Paprika" />
+		<text name="function_lsfm_greenHouses" text="Gewächshäuser benötigen Wasser und Mist/Kompost (Kompost ist Map abhängig), zum Anbau von Salat werden Setzlinge benötigt. Die Ernte erfolgt mit Hilfe kleiner handlichen Gemüsekisten. Das Gemüse kann an einer passenden Verkaufstelle verkauft werden." />
+		<text name="shopItem_lsfm_salesBooth" text="Verkaufsstand - Gemüse" />
+		<text name="function_lsfm_salesBooth" text="Platzierbarer Verkaufsstand für Gemüse. Hier kannst du dein produziertes Gemüse aus den Gewächshäusern verkaufen. Achtung, die angelieferten Waren werden nicht direkt verkauft, sondern im Laufe des Tages. Das Geld wird am Ende des Tages gutgeschrieben." />
+		<text name="greenhouse_input1" text="Bepflanzung:" />
+		<text name="greenhouse_input2" text="Bewässerung:" />
+		<text name="greenhouse_input3" text="Nährstoffe/Dünger:" />
+		<text name="greenhouse_output" text="Erntegut:" />
+		
+		<!-- Cheese House -->
+		<text name="shopItem_cheeseProduction1" text="Käse-Produktion" />
+		<text name="shopItem_cheeseProduction2" text="Ziegenkäse-Produktion" />
+		<text name="cheeseProduction_input" text="Käsebasis:" />
+		<text name="cheeseProduction_input2" text="Enzyme:" />
+		<text name="cheeseProduction_output" text="Hergestellter Käse:" />
+		
+		<!-- Grain Mill -->
+		<text name="shopItem_grainMillWholeGrain" text="Getreideschrot Produktion" />
+		<text name="shopItem_grainMillFlour" text="Mehl Produktion" />
+		<text name="input_grainMill" text="Warenannahme:" />
+		<text name="output_grainMill" text="Warenausgabe:" />
+		
+		<!-- Beehive -->
+		<text name="shopItem_beehiveWhite" text="Bienenstock (weiss)" />
+		<text name="shopItem_beehiveYellow" text="Bienenstock (gelb)" />
+		<text name="shopItem_beehiveRed" text="Bienenstock (rot)" />
+		<text name="hudHeaderName_beehive" text="Bienenstock" />
+		<text name="function_beehiveHB" text="Ein Bienenstock dient als Behausung für Bienen und wird benötigt zur Honig Produktion." />
+		<text name="beehive_input1" text="Bienenvolk:" />
+		<text name="beehive_input2" text="Zubehör:" />
+		<text name="beehive_output" text="Produkt:" />
+		
+		<!-- Winecellar -->
+		<text name="shopItem_wineCellar" text="Weinkeller" />
+		<text name="input_wineCellar" text="Eingelagerter Apfelsaft:" />
+		<text name="output_wineCellar" text="Produzierter Apfelwein:" />
+		<text name="unit_barrels" text="Fässer" />
+
+		<!-- Cooperage -->
+		<text name="shopItem_cooperage" text="Böttcherei" />
+		<text name="cooperage_input" text="Material:" />
+		<text name="cooperage_output" text="Produzierte Fässer:" />
+
+		<!-- ForageStar -->
+		<text name="shopItem_forageStar" text="ForageStar™ - TMR" />
+		<text name="shopItem_forageStar2" text="ForageStar™ - PFD" />
+		<text name="input_forageStar" text="Benötigte Inhaltsstoffe:" />
+		<text name="output_forageStar" text="Hergestellte Mischration:" />
+		<text name="output_forageStar2" text="Hergestelltes Schweinefutter:" />
+
+		<!-- GrainDryer -->
+		<text name="shopItem_grainDryer" text="Getreide Trockner" />
+		<text name="input1_grainDryer" text="Getreide:" />
+		<text name="input2_grainDryer" text="Brennstoff:" />
+		<text name="output_grainDryer" text="Trocknungsfortschritt:" />
+
+	+	<!-- BeetHacker -->
+		<text name="shopItem_beetHacker" text="BeetHacker®" />
+		<text name="shopItem_beetHackerUsed" text="BeetHacker® (gebraucht)" />
+		<text name="function_beetHacker" text="Mit einem Rübenschnitzler lassen sich Zuckerrüben zu Rübenschnitzeln verarbeiten. Rübenschnitzel kann man verkaufen oder auch selber als Futter verwenden." />
+		<text name="input_beetHacker" text="Eingangsmaterial:" />
+		<text name="output_beetHacker" text="Verarbeitet:" />
+
+	+	<!-- GasTrader -->
+		<text name="shopItem_gasTrader" text="Gashandel Huber" />
+		<text name="input_gasTrader" text="Angeliefertes Gas:" />
+		<text name="output_gasTrader" text="Abgefülltes Gas:" />
+		<text name="unit_gasBottles" text="Gasflaschen" />
+	
+	+	<!-- OilMill -->	
+		<text name="shopItem_oilMillProduction" text="Oelmuehle" />
+		<text name="input_oilMillProduction" text="Oelfruechte:" />
+		<text name="output_oilMillProduction" text="Erzeugnis:" />
+
+	+	<!-- BioDieselPlant -->	
+		<text name="shopItem_bioDieselPlant" text="Biodiesel Kleinanlage" />
+		<text name="input_bioDieselPlant" text="Oele/Fette:" />
+		<text name="output_bioDieselPlant" text="Produzierter Kraftstoff:" />
+
+	+	<!-- MayonnaiseMaker -->	
+		<text name="shopItem_mayonnaiseMaker" text="Mayonnaise Maschine" />
+		<text name="mayonnaiseMaker_input_egg" text="Zutat 1:" />
+		<text name="mayonnaiseMaker_input_vegetableOil" text="Zutat 2:" />
+		<text name="output_mayonnaiseMaker" text="Erzeugnis:" />
+
+	+	<!-- EggIncubator -->	
+		<text name="shopItem_eggIncubator" text="Brutschrank" />
+		<text name="input_eggIncubator" text="Eier zum Ausbrüten:" />
+		<text name="output_eggIncubator" text="Geschlüpfte Küken:" />
+						
+		<!-- Rainwater Storage Tank -->
+		<text name="shopItem_rainWaterStorage" text="Regenwasser Tank" />
+		<text name="function_rainWaterStorage" text="Dieser Tank dient zum Sammeln von Regenwasser. Befüllung erfolgt automatisch bei Regen. Das Wasser kann mit einem Tankanhänger entnommen werden." />
+		<text name="gc_rainWaterStorage" text="Regenwasser Tank" />
+		<text name="gc_rainWaterStorageDesc" text="Dieser Tank dient zum Sammeln von Regenwasser. Befüllung erfolgt automatisch bei Regen. Das Wasser kann mit einem Tankanhänger entnommen werden." />
+		<text name="gc_rainWaterStorage_inputsHeaderTitle" text="Regenwasser" />
+		<text name="gc_rainWaterStorage_outputsHeaderTitle" text="Regenwasser" />
+		<text name="gc_rainWaterStorage_input1" text="Regenwasser" />
+		<text name="gc_rainWaterStorage_productLine" text="Regenwasser Tank" />
+				
+		<!-- Claas Diesel Addon -->
+		<text name="shopItem_claasFuelBarrel" text="Dieselfass" />
+		<text name="shopItem_claasFuelBarrelPallet" text="Dieselfass-Palette" />
+		<text name="shopItem_claasBarrelLifter" text="Fassheber" />
+		<text name="function_claasFuelBarrel" text="Fässer dienen zum Transport von Flüssigkeiten. Hierbei handelt es sich um ein Dieselfass, an diesem Fass können Fahrzeuge betankt werden und es ist wiederbefüllbar. Achtung! Befüllung nicht an Tankstellen möglich." />
+		<text name="function_claasBarrelLifter" text="Fassheber zum Heben und Transportieren von Fässern. Passt an jeden Frontlader." />
+		<text name="function_claasFuelBarrelPallet" text="Eine Palette mit Dieselfässern, an dieser Palette können Fahrzeuge betankt werden. Die Fässer sind wiederbefüllbar. Achtung! Befüllung nicht an Tankstellen möglich." />
+		<text name="configTitle_barrelPump" text="Fasspumpe" />
+	
+		<!-- Silo Displays -->	
+		<text name="siloDisplay_guiWarning" text="Doppelte Fruchtsorten ausgewählt!" />
+		<text name="siloDisplay_guiConnected" text="Verbundene Silos:  %s" />
+		<text name="siloDisplay_guiAvailable" text="Verfügbare Füllarten:  %s" />
+
+		<!-- Vehicle Radar -->	
+		<text name="VehicleRadar_Default" text="Du wurdest mit %1dkm/h zuviel geblitzt und musst %s bezahlen." />
+		<text name="VehicleRadar_info" text="%s€ für zu schnelles Fahren" />
+	</texts>
+</l10n>
+
+<!-- 
+
+Übersetzungs Hinweis:
+
++ hinzugfügt
+# geändert
+
+ -->
