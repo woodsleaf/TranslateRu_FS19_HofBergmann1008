@@ -64,12 +64,12 @@
 		<text name="action_autoModeOff" text="Отключить режим хранения тюков" />			
 		<text name="action_wineCellarEnter" text="Войти в погреб" />	
 		<text name="action_wineCellarExit" text="Выйти из погреба" />
-		<text name="action_liftUpMixer" text="Поднять смеситель для навоза" />	
-		<text name="action_lowerDownMixer" text="Опустить смеситель для навоза" />
-		<text name="action_switchFillingSystemOn" text="Активировать заполнение триггера" />	
-		<text name="action_switchFillingSystemOff" text="Активировать заправку шланга" />
-		<text name="action_openSiloDoors" text="Открыть золотниковый клапан силоса (заполнение начато)" />	
-		<text name="action_closeSiloDoors" text="Закройте золотниковый клапан силоса (заполнение прекращено)" />	
+		<text name="action_liftUpMixer" text="Поднять смеситель для жидкого навоза" />	
+		<text name="action_lowerDownMixer" text="Опустить смеситель для жидкого навоза" />
+		<text name="action_switchFillingSystemOn" text="Включить заполнение системы" />	
+		<text name="action_switchFillingSystemOff" text="Выключить заполнение системы" />
+		<text name="action_openSiloDoors" text="Открыть золотниковый клапан силоса (заполнение разрешено)" />	
+		<text name="action_closeSiloDoors" text="Закрыть золотниковый клапан силоса (заполнение запрещено)" />	
 		<text name="action_openBaleLattice" text="Открыть решетку для тюков" />	
 		<text name="action_closeBaleLattice" text="Закрыть решетку для тюков" />	
 		<text name="action_rotatePipePos" text="Развернуть трубу" />	
@@ -78,10 +78,10 @@
 		<text name="action_closeFridgeDoor"  text="Закрыть холодильник" />
 		<text name="action_easyFillModeOn"  text="Метод наполнения: наполнение прицепа" />
 		<text name="action_easyFillModeOff"  text="Метод заполнения: заполнение лопатой" />
-		<text name="action_radarTrapsOn"  text="Деактивировать радарные ловушки" />
-		<text name="action_radarTrapsOff"  text="Активируйте радарные ловушки" />
-		<text name="action_storageModePosText" text="Активировать режим хранения" />	
-		<text name="action_storageModeNegText" text="Деактивировать режим хранения" />
+		<text name="action_radarTrapsOn"  text="Отключить камеры контроля скорости" />
+		<text name="action_radarTrapsOff"  text="Включить камеры контроля скорости" />
+		<text name="action_storageModePosText" text="Включить режим хранения" />	
+		<text name="action_storageModeNegText" text="Отключить режим хранения" />
 		<text name="action_atticCranePosText" text="Выдвинуть подъемную установку" />	
 		<text name="action_atticCraneNegText" text="Втянуть подъемное устройство" />
 		<text name="action_openServiceDoor" text="Открыть люк" />	
@@ -124,7 +124,7 @@
 		<text name="fillType_meatProducts" text="Мясные продукты" />
 		<text name="fillType_apple" text="Яблоки" />
 		<text name="fillType_pear" text="Груши" />
-		<text name="fillType_badFeed" text="Корм для свиней (bad)" />
+		<text name="fillType_badFeed" text="Корм для свиней (брак)" />
 		<text name="fillType_maizeSilage" text="Кукурузный силос" />
 		<text name="fillType_grassSilage" text="Травяной силос" />
 		<text name="fillType_goatMilk" text="Козье молоко" />
@@ -250,7 +250,7 @@
 		<text name="animals_cowPasture01" text="Коровье пастбище A" />	
 		<text name="animals_cowPasture02" text="Коровье пастбище B" />	
 		<text name="animals_horseRanch" text="Конюшня" />	
-		<text name="animals_horsePaddockA" text="Выгон A" />	
+		<text name="animals_horsePaddockA" text="Выгон для лошадей" />	
 		<text name="animals_pigStableBig01" text="Свинарник 1 (питомник)" />	
 		<text name="animals_pigStableBig02" text="Свинарник 2 (питомник)" />	
 		<text name="animals_pigStableBig03" text="Свинарник 3 (питомник)" />	
@@ -518,7 +518,7 @@
 		<text name="shopItem_fuelStorage" text="Хранилище топлива" />	
 		<text name="shopItem_liquidManureStorage" text="Хранилище жидкого навоза" />
 	+	<text name="typeDesc_liquidManureStorage" text="Хранение жидкого навоза " />	
-	+	<text name="enterText_liquidManureStorage" text="Включить клапан потока шлама" />	
+	+	<text name="enterText_liquidManureStorage" text="Включить клапан потока навоза" />	
 	+	<text name="shopItem_bioGasPlantDigestatePart" text="Резервуар для сбора дигестата" />	
 	+	<text name="typeDesc_bioGasPlantDigestatePart" text="Резервуар для сбора дигестата" />	
 	+	<text name="enterText_bioGasPlantDigestatePart" text="Управление клапаном: бак дигестата" />
