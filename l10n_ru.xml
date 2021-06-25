@@ -302,7 +302,7 @@
 	+	<text name="ui_statisticView_breedingBull" text="Разведение быков" />		
 		<text name="animals_bullStable01" text="Хлев для быков (1)" />			
 		<text name="animals_bullStable03" text="Хлев для быков (3)" />
-	+ <text name="animals_breedingBullStable" text="Стойло для разведения племенных быков (2)" />			
+	+	<text name="animals_breedingBullStable" text="Стойло для разведения племенных быков (2)" />			
 		<text name="animals_desaminationHouse" text="Пункт сбора спермы быков" />
 	+	<text name="shopItem_cowBlackWhiteCalf" text="Корова (черно-бело-телячая)" />
 	+	<text name="shopItem_pigRedSow" text="Свинья (розовая/поросенок)" />
@@ -531,7 +531,7 @@
 	+	<text name="typeDesc_mobileMilkStand" text="Мобильный доильный аппарат" />
 	+	<text name="enterText_mobileMilkingStand" text="Мобильный доильный аппарат. (Operate)" />
 	+	<text name="shopItem_pushableMixerWagon" text="Тележка-кормораздатчик "/>
-	+ <text name="shopItem_milkShuttle" text="Транспортировщик молока"/>
+	+	<text name="shopItem_milkShuttle" text="Транспортировщик молока"/>
 	+	<text name="function_pushableMixerWagon" text="Небольшой электрический миксер-кормораздатчик для толкания. Этот кормосмеситель подходит только для производства кормов для свиней."/>
 	+	<text name="function_milkShuttle" text="MilkShuttle / Молочное такси используется для доставки телят. Для производства молока для выращивания телят требуются вода и сухое молоко, которые продаются отдельно."/>
 	+	<text name="typeDesc_pushableMixerWagon" text="Тележка-кормораздатчик для семян"/>
