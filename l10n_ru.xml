@@ -196,7 +196,7 @@
 		<text name="station_gardenShopObjects" text="Садовый Магазин (9-18)" />
 	+	<text name="station_bakeryShop" text="Пекарня (0-16)" />
 	+	<text name="station_dairyFactory" text="Молочная ферма (8-23)" />
-	+	<text name="station_genex" text="GENEX (24h)" />
+	+	<text name="station_genex" text="GENEX продажа спермы животных(24h)" />
 	+	<text name="station_spinneryFactory" text="Ткацкая фабрика (9-18)" />
 	+	<text name="station_gasStationShell" text="АЗС - покупка биогаза (24ч)" />
 	+	<text name="station_oilMill" text="Маслобойня (8-22)" />
