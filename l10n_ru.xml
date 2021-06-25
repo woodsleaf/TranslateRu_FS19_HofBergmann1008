@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<l10n>
+	<translationContributors>FARMER_ANDY</translationContributors>
+	<languageVersion>1.0.0.8</languageVersion>
+	<texts>
+		<!-- Misc -->
+		<text name="HofBergmann" text="Двор Бергманна" />
+		<text name="closedText_default" text="Закрыто, вернусь позже!" />	
+		<text name="category_crates" text="Ящики" />
+		<text name="category_productions" text="Производственное Оборудование" />
+		<text name="category_placeableProductions" text="Производство" />		
+		<text name="category_miscObjects" text="Разное" />
+		<text name="category_consumerGoods" text="Потребительские товары" />	
+		<text name="category_fruitTrees" text="Фруктовые деревья" />
+		<text name="category_beeHives" text="Ульи" />
+		<text name="category_beekeepingNeeds" text="Принадлежности для пчеловодства" />	
+		<text name="category_ibcTanks" text="Цистерны IBC" />
+		<text name="category_lsfmAttachmentTools" text="Приспособления LSFM" />
+		<text name="category_animalSupplies" text="Товары для животных" />
+	+	<text name="category_drivingSilos" text="Управляемые установки для силоса" />	
+	+	<text name="configuration_valueEmpty" text="Пустые" />	
+	+	<text name="configuration_valueFilled" text="Наполненные" />	
+		<text name="ui_vehicleReset" text="Транспортное средство/инструмент был сброшен на ферму!" />	
+		<text name="ui_failedVehicleReset" text="Транспортное средство/инструмент не может быть сброшен. Нет места возле фермы!" />
+		<text name="hofBergmann_hint01" text="© 2018-2021 LSFM Все права защищены. Поддержка и информация о карте на сайте www.lsfarming-mods.com" />	
+		
+		<!-- Actions -->
+		<text name="action_openDoorTop" text="Открыть верхнюю дверь" />	
+		<text name="action_closeDoorTop" text="Закрыть верхнюю дверь" />	
+		<text name="action_openDoorBottom" text="Открыть нижнюю дверь" />	
+		<text name="action_closeDoorBottom" text="Закрыть нижнюю дверь" />	
+		<text name="action_openAtticDoor" text="Открыть чердачную дверь" />	
+		<text name="action_closeAtticDoor" text="Закрыть чердачную дверь" />	
+		<text name="action_openAtticGate" text="Открыть чердачные ворота" />	
+		<text name="action_closeAtticGate" text="Закрыть чердачные ворота" />	
+		<text name="action_openSlurryPit" text="Открыть навозную яму" />	
+		<text name="action_closeSlurryPit" text="Закрыть навозную яму" />	
+		<text name="action_liftUp" text="Поднять полку" />	
+		<text name="action_lowerDown" text="Опустить полку" />	
+		<text name="action_rollGateliftUp" text="Поднять рулонные ворота" />	
+		<text name="action_rollGatelowerDown" text="Опустить рулонные ворота" />	
+		<text name="action_fanStart" text="Включить вентиляцию" />	
+		<text name="action_fanStop" text="Отключить вентиляцию" />	
+		<text name="action_openElectroFence" text="Открыть электроизгородь" />	
+		<text name="action_closeElectroFence" text="Закрыть электроизгородь" />	
+		<text name="action_openBunkerPlanks" text="Установить доски" />
+		<text name="action_closeBunkerPlanks" text="Убрать доски" />
+		<text name="action_activateTrailerFilling" text="Включить наполнение прицепа" />
+		<text name="action_deactivateTrailerFilling" text="Остановить наполнение прицепа" />
+		<text name="action_takeOffTop" text="Открыть верхнюю часть" />
+		<text name="action_takeOnTop"  text="Закрыть верхнюю часть" />
+		<text name="action_openOvenDoors"  text="Открыть печь" />
+		<text name="action_closeOvenDoors"  text="Закрыть печь" />
+		<text name="action_openOvenFPDoors"  text="Открыть топку" />
+		<text name="action_closeOvenFPDoors"  text="Закрыть топку" />
+		<text name="action_womanMuteOn" text="Отключить приветствие" />
+		<text name="action_womanMuteOff" text="Включить приветствие" />
+		<text name="action_openPitCover" text="Открыть крышку" />	
+		<text name="action_closePitCover" text="Закрыть крышку" />
+		<text name="action_openGasWheel" text="Открыть Газовый кран (подача в газовую сеть)" />	
+		<text name="action_closeGasWheel" text="Закрыть Газовый кран (подача в газовую сеть)" />
+		<text name="action_autoModeOn" text="Включить режим хранения рулонов" />	
+		<text name="action_autoModeOff" text="Отключить режим хранения тюков" />			
+		<text name="action_wineCellarEnter" text="Войти в погреб" />	
+		<text name="action_wineCellarExit" text="Выйти из погреба" />
+		<text name="action_liftUpMixer" text="Поднять смеситель для навоза" />	
+		<text name="action_lowerDownMixer" text="Опустить смеситель для навоза" />
+		<text name="action_switchFillingSystemOn" text="Активировать заполнение триггера" />	
+		<text name="action_switchFillingSystemOff" text="Активировать заправку шланга" />
+		<text name="action_openSiloDoors" text="Открыть золотниковый клапан силоса (заполнение начато)" />	
+		<text name="action_closeSiloDoors" text="Закройте золотниковый клапан силоса (заполнение прекращено)" />	
+		<text name="action_openBaleLattice" text="Открыть решетку для тюков" />	
+		<text name="action_closeBaleLattice" text="Закрыть решетку для тюков" />	
+		<text name="action_rotatePipePos" text="Развернуть трубу" />	
+		<text name="action_rotatePipeNeg" text="Свернуть трубу" />	
+		<text name="action_openFridgeDoor"  text="Открыть холодильник" />
+		<text name="action_closeFridgeDoor"  text="Закрыть холодильник" />
+		<text name="action_easyFillModeOn"  text="Метод наполнения: наполнение прицепа" />
+		<text name="action_easyFillModeOff"  text="Метод заполнения: заполнение лопатой" />
+		<text name="action_radarTrapsOn"  text="Деактивировать радарные ловушки" />
+		<text name="action_radarTrapsOff"  text="Активируйте радарные ловушки" />
+		<text name="action_storageModePosText" text="Активировать режим хранения" />	
+		<text name="action_storageModeNegText" text="Деактивировать режим хранения" />
+		<text name="action_atticCranePosText" text="Выдвинуть подъемную установку" />	
+		<text name="action_atticCraneNegText" text="Втянуть подъемное устройство" />
+		<text name="action_openServiceDoor" text="Открыть люк" />	
+		<text name="action_closeServiceDoor" text="Закрыть люк" />
+		<text name="action_openAtticStorageGate" text="Открыть дверь (кладовая на чердаке)" />
+		<text name="action_closeAtticStorageGate" text="Закрыть дверь (кладовая на чердаке)" />
+	+	<text name="action_wallsOn" text="Показать стенки" />
+	+	<text name="action_wallsOff" text="Убрать стенки" />
+	+	<text name="action_flowControlCow" text="Переключить управление потоком на: коровник" />
+	+	<text name="action_flowControlPig" text="Переключить управление потоком на: свинарник" />
+	+	<text name="action_flowControlBGATank1" text="Открыть вентиль бака дигестата 2" />
+	+	<text name="action_flowControlBGATank2" text="Открыть вентиль бака дигестата 1" />
+	+	<text name="action_openBottleShelfDoor" text="Открыть хранилище газовых баллонов" />	
+	+	<text name="action_closeBottleShelfDoor" text="Закрыть хранилище газовых баллонов" />
+	+	<text name="action_turnOnWarmLights" text="Включить лампы накаливания" />
+	+	<text name="action_turnOffWarmLights" text="Отключить лампы накаливания" />
+	+	<text name="info_AnimalsUnload" text="Выгрузить животных" />
+	+	<text name="info_AnimalsLoad" text="Погрузить животных" />
+	+	<text name="action_openCatchingBox" text="Откройте стойку для захвата" />
+	+	<text name="action_closeCatchingBox" text="Закройте стойку для захвата" />
+			
+		<!-- Filltypes -->
+		<text name="fillType_clover" text="Клевер" />	
+		<text name="fillType_compost" text="Компост" />	
+		<text name="fillType_biomass" text="Биомасса" />	
+		<text name="fillType_wholeGrain" text="Цельнозерновая мука" />	
+		<text name="fillType_deadAnimal" text="Туши животных" />	
+		<text name="fillType_rubinTT" text="Rubin® TT (Протравитель)" />	
+		<text name="fillType_cheese" text="Сыр" />
+		<text name="fillType_butter" text="Масло" />
+		<text name="fillType_lettuce" text="Салат Латук" />
+		<text name="fillType_tomato" text="Томаты" />
+		<text name="fillType_redPepper" text="Сладкий перец" />
+		<text name="fillType_lettuceSeedlings" text="Рассада салата" />
+		<text name="fillType_fertiPro" text="fertiPro®" />	
+		<text name="fillType_badmixture" text="Bad Mix" />	
+		<text name="fillType_nitrogen" text="Азот" />	
+		<text name="fillType_phosphor" text="Фосфор" />	
+		<text name="fillType_potassium" text="Калий" />
+		<text name="fillType_meatProducts" text="Мясные продукты" />
+		<text name="fillType_apple" text="Яблоки" />
+		<text name="fillType_pear" text="Груши" />
+		<text name="fillType_badFeed" text="Корм для свиней (bad)" />
+		<text name="fillType_maizeSilage" text="Кукурузный силос" />
+		<text name="fillType_grassSilage" text="Травяной силос" />
+		<text name="fillType_goatMilk" text="Козье молоко" />
+		<text name="fillType_goatCheese" text="Козий сыр" />
+		<text name="fillType_rye" text="Рожь" />
+		<text name="fillType_flour" text="Ржаная мука" />
+		<text name="fillType_bread" text="Хлеб" />
+		<text name="fillType_breadDoughling" text="Тесто для хлеба" />
+		<text name="fillType_yeast" text="Дрожжи" />
+		<text name="fillType_biogas" text="БиоМетан" />
+		<text name="fillType_chaffMaize" text="Сечка (кукуруза)" />
+		<text name="fillType_maizeStraw" text="Кукурузная солома" />
+		<text name="fillType_honeycombs_empty" text="Соты для мёда" />
+		<text name="fillType_honeycombs_full" text="Соты с мёдом" />
+		<text name="fillType_honey" text="Мёд" />
+		<text name="fillType_honeybees" text="Медоносные пчелы" />
+		<text name="fillType_forageNew" text="Моносмесь" />
+		<text name="fillType_forage_wrapped" text="Моносмесь (тюки)" />
+		<text name="fillType_dogFood" text="Собачий корм" />
+		<text name="fillType_appleJuice" text="Яблочный сок" />
+		<text name="fillType_wine" text="Сидр" />
+		<text name="fillType_dryGrain" text="Зерно (сушеное)" />
+		<text name="fillType_spentGrain" text="Отработанное зерно" />
+		<text name="fillType_propan" text="Пропан" />
+		<text name="fillType_sperm" text="Бычья сперма" />
+		<text name="fillType_lab" text="Лаборатория" />
+		<text name="fillType_fireWood" text="Щепа" />
+		<text name="fillType_woodShavings" text="Стружка" />
+		<text name="fillType_chickenFeed" text="Корм для кур" />
+	+	<text name="fillType_piglet" text="Ferkel" />
+	+	<text name="fillType_sucklingPig" text="Поросенок" />
+	+	<text name="fillType_calfMilkPowder" text="Сухое молоко для телят" />
+	+	<text name="fillType_calfBreedingMilk" text="Молоко для выращивания телят" />
+	+	<text name="fillType_ePower" text="Аккумуляторная батарея" />
+	+	<text name="fillType_beetPulp" text="Свекольный жом" />
+	+	<text name="fillType_vegetableOil" text="Растительное масло" />
+	+	<text name="fillType_vegetableOilOld" text="Растительное масло (старое)" />
+	+	<text name="fillType_mayonnaise" text="Майонез" />
+	+	<text name="fillType_animalFat" text="Животный жир" />
+	+	<text name="fillType_chick" text="цыпленок" />
+	+	<text name="fillType_silphie" text="Полосатая Сильфи" />
+	+	<text name="fillType_silphieChopped" text="Сильфи (нарезанная)" />
+		
+		<!-- Stations -->
+		<text name="station_animalDealer" text="Продавец животных (9-20)" />
+		<text name="station_animalDealerObjects" text="Продавец животных (мешки) (9-20)" />		
+		<text name="station_seedsSilo" text="Хранилище извести" />	
+		<text name="station_liquidManureStation" text="Покупка жидкого навоза" />
+	+	<text name="station_raiffeisenMisc" text="Торговый двор Райфайзен (разное) (8-20)" />	
+		<text name="station_raiffeisen" text="Торговый двор Райфайзен (сыпучие) (8-20)" />
+		<text name="station_raiffeisenObjects" text="Торговый двор Райфайзен (биг бэги/ящики) (8-20)" />		
+		<text name="station_grainMill" text="Зерновая мельница (8-22)" />	
+		<text name="station_horseRanch" text="Конюшня Райфайзен (8-20)" />	
+		<text name="station_horseRanch2" text="Конюшня Хинтертубфинген (8-20)" />	
+		<text name="station_inn" text="Отель (6-15)" />	
+		<text name="station_carpentery" text="Лесопилка (9-20)" />
+		<text name="station_woodScrapsBuyingTrigger" text="Лесопилка - остатки обработки древесины" />
+		<text name="station_skinner" text="Утилизация животных (24ч)" />
+		<text name="station_farmShop" text="Фермерский магазин" />	
+		<text name="station_chemicalTank" text="Химический бак" />
+		<text name="station_fertilizerTank" text="Удобрения" />
+		<text name="station_villageShop" text="Деревенский магазин (9-18)" />	
+		<text name="station_biogasSellingPoint" text="LSFM Энерджи" />
+		<text name="station_landMarket" text="Торговый двор Хинтертубфинген (10-17)" />		
+		<text name="station_distillery" text="Винокурня (9-20)" />			
+		<text name="station_church" text="Церковь (8-22)" />
+		<text name="station_maltFactory" text="Солодовый завод (9-20)" />	
+		<text name="station_spentGrainBuying" text="Солодовый завод скупка" />
+		<text name="station_gardenShopObjects" text="Садовый Магазин  (9-18)" />
+	+	<text name="station_bakeryShop" text="Пекарня (0am-4am)" />
+	+	<text name="station_dairyFactory" text="Молочная ферма (8-23)" />
+	+	<text name="station_genex" text="GENEX (24h)" />
+	+	<text name="station_spinneryFactory" text="Ткацкая фабрика (9-18)" />
+	+	<text name="station_gasStationShell" text="АЗС - покупка биогаза  (24ч)" />
+	+	<text name="station_oilMill" text="Маслобойня (8-22)" />
+	+	<text name="station_vegetableOilTrigger01" text="Растительное масло (отработанное) " />
+	+	<text name="station_animalFatTrigger" text="Животный жир (отработанный) " />
+		
+		<!-- Stations Households -->
+		<text name="station_household01" text="Дом семьи Ritter" />	
+		<text name="station_household02" text="Дом семьи Freisler" />	
+		<text name="station_household03" text="Дом семьи Miller" />	
+		<text name="station_household04" text="Дом семьи Meyer" />	
+		<text name="station_household05" text="Дом семьи Geis" />	
+		<text name="station_household06" text="Дом семьи Schroeder" />	
+		<text name="station_household07" text="Дом семьи Lehmann" />	
+		<text name="station_household08" text="Дом семьи Schreiber" />	
+		
+		<!-- Hot Spots -->
+	#	<text name="hotSpot_vehicleShop" text="Дилерский центр (8-22)" />	
+		<text name="hotSpot_cowPastureA" text="Коровье пастбище A" />	
+		<text name="hotSpot_cowPastureB" text="Коровье пастбище B" />	
+		<text name="hotSpot_cowPastureC" text="Коровье пастбище C" />	
+		<text name="hotSpot_pigbreedingPlants" text="Свиноферма" />	
+		<text name="hotSpot_biogasPlant" text="Биогазовая установка" />	
+		<text name="hotSpot_forestArea1" text="Участок леса 1" />	
+		<text name="hotSpot_forestArea2" text="Участок леса 2" />	
+	#	<text name="hotSpot_animalDealer" text="Продавец животных (9-20)" />	
+		<text name="hotSpot_liquidManurePit" text="Хранилище навоза" />	
+	#	<text name="hotSpot_dairy" text="Молочная ферма (8-23)" />	
+	#	<text name="hotSpot_grainMill" text="Зерновая мельница (8-22)" />
+	#	<text name="hotSpot_spinneryFactory" text="Ткацкая фабрика (9-18)" />	
+	#	<text name="hotSpot_inn" text="Отель (6-15 Uhr)" />	
+		<text name="hotSpot_veggieFarm" text="Овощная ферма" />	
+		<text name="hotSpot_carpentery" text="Лесопилка (9-20)" />	
+	#	<text name="hotSpot_skinner" text="Скотобойня (24h)" />	
+		<text name="hotSpot_horseRanch" text="Конюшня (8-20)" />	
+		<text name="hotSpot_cheeseDairy" text="Сыроварня" />
+	#	<text name="hotSpot_butchery" text="Магазин мясника (9-18)" />
+		<text name="hotspot_grainStorage" text="Зерновое хранилище" />
+		<text name="hotSpot_milkHouse" text="Молочное хранилище" />
+		<text name="hotSpot_fruitGrove" text="Фруктовая роща" />
+		<text name="hotSpot_fruitPlantage" text="Фруктовый сад" />	
+		<text name="hotSpot_buildPlace" text="Участок для строительства" />
+	#	<text name="hotSpot_cooperage" text="Бондарня производство бочек(9-18)" />
+		<text name="hotSpot_limePit" text="Лаймовая яма" />	
+	#	<text name="hotSpot_bullBreeding" text="Разведение быков" />	
+	#	<text name="hotSpot_slaughterHouse" text="Бойня (6-18)" />
+	+	<text name="hotSpot_gasTrader" text="Торговля газом Huber (9-17)" />
+		
+		<!-- Animals -->
+		<text name="animals_cowStable" text="Коровник" />	
+		<text name="animals_cowPasture01" text="Коровье пастбище A" />	
+		<text name="animals_cowPasture02" text="Коровье пастбище B" />	
+		<text name="animals_horseRanch" text="Конюшня" />	
+		<text name="animals_horsePaddockA" text="Выгон A" />	
+		<text name="animals_pigStableBig01" text="Свинарник 1 (питомник)" />	
+		<text name="animals_pigStableBig02" text="Свинарник 2 (питомник)" />	
+		<text name="animals_pigStableBig03" text="Свинарник 3 (питомник)" />	
+		<text name="animals_sheepStable" text="Овечье пастбище" />
+		<text name="animals_farrowingPen" text="Здание для опороса" />
+	+	<text name="animals_horseStableBoxA" text="Ящик для конюшни A" />
+	+	<text name="animals_horseStableBoxB" text="Ящик для конюшни B" />
+		<text name="shopItem_deadAnimal" text="Туша животного" />	
+		<text name="fillTypeGroup_power" text="Комбикорм" />	
+		<text name="shopItem_goatBrown" text="Коза (коричневая)" />	
+		<text name="shopItem_goatWhite" text="Коза (белая)" />	
+		<text name="shopItem_goatGrey" text="Коза (серая)" />	
+		<text name="shopItem_goatBlack" text="Коза (черная)" />	
+		<text name="fillType_goat" text="Козёл" />	
+		<text name="shopItem_ramBlack" text="Баран самка? (черный)" />	
+		<text name="fillType_ram" text="Баран самец?" />	
+		<text name="shopItem_duckBrown" text="Утка (коричневая)" />	
+		<text name="shopItem_duckWhite" text="Утка (белая)" />	
+		<text name="shopItem_duckBlack" text="Утка (черная)" />	
+		<text name="fillType_duck" text="Утка" />	
+		<text name="shopItem_pig2Red" text="Свинья (розовая)" />	
+		<text name="shopItem_pig2White" text="Свинья (светлая)" />	
+		<text name="shopItem_pig2BlackWhite" text="Свинья (черно-белая)" />	
+		<text name="shopItem_pig2Black" text="Свинья (черная)" />	
+		<text name="fillType_pig2" text="Свинья" />	
+		<text name="ui_statisticView_pig2" text="Разведение свиней" />
+		<text name="animal_calfZone" text="Телятник" />	
+		<text name="fillType_calf" text="Телёнок" />			
+		<text name="ui_statisticView_calf" text="Телята" />	
+		<text name="shopItem_calfBrown" text="Телёнок (коричневый)" />	
+		<text name="shopItem_calfBrownWhite" text="Телёнок (коричнево-белый)" />	
+		<text name="shopItem_calfBlack" text="Телёнок (черный)" />	
+		<text name="shopItem_calfBlackWhite" text="Телёнок (черно-белый)" />		
+		<text name="animals_dogZone01" text="Площадка для собаки (Двор)" />
+		<text name="animals_dogZone02" text="Площадка для собаки (Фруктовый сад)" />
+	+	<text name="ui_statisticView_dog" text="Собаки" />
+		<text name="fillType_dog" text="Собака" />	
+		<text name="shopItem_dogJackRussel" text="Джек-рассел-терьер" />
+		<text name="shopItem_dogSwissSenner" text="Большой швейцарский зенненхунд" />
+	#	<text name="shopItem_youngBullBrown" text="Молодой бычок (коричневый)" />	
+	#	<text name="shopItem_youngBullBrownWhite" text="Молодой бычок (коричневый / белый)" />	
+	#	<text name="shopItem_youngBullBlack" text="Молодой бычок (черный)" />	
+	#	<text name="shopItem_youngBullBlackWhite" text="Молодой бычок (черно-белый)" />
+	+	<text name="shopItem_breedingBullBlackWhite" text="Бык (черно-белый)" />
+		<text name="shopItem_cowBlackFix" text="Корова (черная)" />	
+	#	<text name="fillType_youngBull" text="Молодой бычок" />
+	+	<text name="fillType_breedingBull" text="Бык" />
+	#	<text name="ui_statisticView_younBull" text="Молодые бычки" />
+	+	<text name="ui_statisticView_breedingBull" text="Разведение быков" />		
+		<text name="animals_bullStable01" text="Хлев для быков (1)" />			
+		<text name="animals_bullStable03" text="Хлев для быков (3)" />
+	+ <text name="animals_breedingBullStable" text="Стойло для разведения племенных быков (2)" />			
+		<text name="animals_desaminationHouse" text="Пункт сбора спермы быков" />
+	+	<text name="shopItem_cowBlackWhiteCalf" text="Корова (черно-бело-телячая)" />
+	+	<text name="shopItem_pigRedSow" text="Свинья (розовая/поросенок)" />
+		
+		<!-- Objects -->
+		<text name="shopItem_bigBagWholeGrain" text="FIBC с цельнозерновой мукой" />	
+		<text name="function_bigBagWholeGrain" text="Необходимо для производства корма для свиней" />
+		<text name="shopItem_bigBagChickenFood1" text="Промышленый мешок с зерном для кур" />	
+		<text name="shopItem_bigBagHorseFood1" text="Промышленый мешок с овсом для лошадей" />			
+		<text name="shopItem_bigBagDryGrain" text="Промышленный мешок с Зерном (сушеное)" />	
+		<text name="function_bigBagDryGrain" text="Промышленный мешок для сушеного зерна." />	
+		<text name="shopItem_bigBagSpentGrain" text="Промышленный мешок с отработанным зерном" />	
+		<text name="function_bigBagSpentGrain" text="Промышленный мешок для отработанного зерна. Отработанное зерно является побочным продуктом производства солода и может использоваться в качестве корма для животных." />
+		<text name="shopItem_bigBagCompost" text="Промышленный мешок с компостом" />	
+		<text name="function_bigBagCompost" text="Промышленный мешок для компоста." />
+		<text name="shopItem_bigBagPotato" text="Промышленный мешок с картофелем" />	
+		<text name="function_bigBagPotato" text="Промышленный мешок для картофеля" />	
+		<text name="shopItem_bigBagWoodChips" text="Промышленный мешок со щепой" />	
+		<text name="function_bigBagWoodChips" text="Щепа в мешке необходима, чтобы зажечь духовку в пекарне на ферме. Это покупной вариант мешка с щепой. Совет: на BigBag Max можно также сделать LSFM Big Bag мешки со щепой." />
+		<text name="shopItem_bigBagWoodShavings" text="Промышленный мешок с стружкой" />	
+		<text name="function_bigBagWoodShavings" text="Промышленный мешок для стружки." />
+		<text name="shopItem_bigBagForage" text="Промышленный мешок с фуражом" />	
+		<text name="function_bigBagForage" text="Усиленное питание для крупно-рогатого скота" />
+	+	<text name="shopItem_bigBagBeetPulp" text="Свекольный жом BigBag" />	
+	+	<text name="function_bigBagBeetPulp" text="Биг-бэг со свекольным жомом. Может использоваться в качестве корма для животных." />		
+		<text name="shopItem_fillableBox" text="Пластиковый ящик" />	
+		<text name="function_fillableBox" text="Многоразовый пластиковый ящик. Наполнение: из тюков или прицепа (рекомендуется с желобом для зерна)" />	
+		<text name="shopItem_fillableWoodBox" text="Деревянный ящик" />	
+		<text name="function_fillableWoodBox" text="Многоразовый деревянный ящик. Наполнение: тюки или прицеп (рекомендуется с желобом для зерна)" />	
+		<text name="shopItem_fillableCagebox" text="Сетчатый ящик" />	
+		<text name="function_fillableCagebox" text="Многоразовый сетчатый ящик. Наполнение: тюки или прицеп (рекомендуется с желобом для зерна)" />	
+		<text name="shopItem_fillableBucket" text="Ведро" />	
+		<text name="function_fillableBucket" text="Используется при производстве сыра на сыроварне." />	
+		<text name="shopItem_fillableButterBarrel" text="Бочка для масла" />	
+		<text name="function_fillableButterBarrel" text="Используется для производства сливочного масла на маслобойне." />	
+		<text name="shopItem_duckBathtub" text="Ванна для уток" />	
+		<text name="function_duckBathtub" text="Плоская ванна для уток и кур. Может быть заполнен водой." />	
+		<text name="shopItem_transportPallet" text="Транспортный поддон" />	
+		<text name="function_transportPallet" text="Поддоны могут быть использованы для транспортировки объектов. Груз можно закрепить с помощью натяжных ремней." />	
+		<text name="configuration_stateTitle" text="Положение" />	
+		<text name="configuration_new" text="Новое" />	
+		<text name="configuration_used" text="Использованное" />	
+		<text name="shopItem_woodChipsBag" text="Мешок с дровами" />
+		<text name="function_woodChipsBag" text="Дрова в мешке, нужны для топки печи в пекарне на ферме." />
+		<text name="shopItem_potatoSack" text="Мешок с картофелем" />	
+		<text name="shopItem_woodChipsSack" text="Мешок со стружкой" />
+		<text name="shopItem_woodShavingsSack" text="Мешок для стружки" />
+		<text name="shopItem_grainSack" text="Мешок с кормом для курей" />	
+		<text name="shopItem_horseFoodSack" text="Мешок с кормом для лошадей" />
+		<text name="shopItem_pigFoodSack" text="Мешок с кормом для свиней" />
+		<text name="shopItem_haySack" text="Мешок сена" />
+		<text name="shopItem_soybeanSack" text="Мешок сои" />
+		<text name="shopItem_compostSack" text="Мешок компоста" />
+		<text name="shopItem_seedsSack" text="Мешок семян" />
+		<text name="shopItem_fertilizerSack" text="Мешок удобрений" />
+		<text name="shopItem_limeSack" text="Мешок извести" />
+		<text name="shopItem_milkCanFillable" text="Фляга (наполняемая)" />
+		<text name="function_milkCanFillable" text="Фляга используется для транспортировки и хранения молока. Для многоразового использования." />
+		<text name="shopItem_fruitBoxFillable" text="Фруктовый ящик (наполняемый)" />
+		<text name="function_fruitBoxFillable" text="Этот ящик необходим для сбора фруктов. Является многоразовым (не продается вместе с товаром)." />
+		<text name="shopItem_appleTree" text="Яблоня" />
+		<text name="shopItem_pearTree" text="Грушевое дерево" />
+		<text name="function_fruitTrees" text="Фруктовые деревья могут быть размещены на карте, дерево может также иногда приносить плоды." />
+		<text name="shopItem_flourBag" text="Мешок с мукой" />
+		<text name="shopItem_bread" text="Хлеб" />
+		<text name="shopItem_breadDoughling" text="Тесто" />
+		<text name="shopItem_yeast" text="Пекарские дрожжи" />
+		<text name="function_yeast" text="Пекарские дрожжи используются для приготовления хлеба." />
+		<text name="shopItem_breadBox" text="Ящик для хлеба" />
+		<text name="function_breadBox" text="Ящик для хлеба нужен для перевозки хлеба. Является многоразовым (не продается вместе с товаром))." />
+		<text name="shopItem_seedlingsPallet_lettuce" text="Рассада (Салат латук)" />
+		<text name="function_seedlingsPallet_lettuce" text="Рассада салата необходима для выращивания салата. Для использования в теплицах LSFM." />
+		<text name="shopItem_vegetablesBoxFillable" text="Овощной ящик (заполняемый)" />
+		<text name="function_vegetablesBoxFillable" text="Ящик используется для сбора овощей. Является многоразовым (не продается вместе с товаром)." />
+		<text name="shopItem_fillableBigBox" text="Большой ящик" />
+		<text name="function_fillableBigBox" text="Этот ящик может использоваться для перевозки сыпучих товаров, фруктов или овощей. Является многоразовым (не продается вместе с товаром)."/>
+		<text name="configuration_valueBulk" text="Сыпучие материалы" />
+		<text name="configuration_valueVegetablesGroup1" text="Салат Латук" />
+		<text name="configuration_valueVegetablesGroup2" text="Томаты/Сладкий перец" />
+		<text name="configuration_valueFruitsGroup1" text="Яблоки/Груши" />
+		<text name="configuration_valueEarthFruits" text="Картофель/свекла" />
+		<text name="shopItem_vegetablesCardBoardFillable" text="Картонная коробка (заполняемая)" />
+		<text name="function_vegetablesCardBoardFillable" text="Картонные коробки используются для сбора перцев и томатов. Является многоразовой (не продается вместе с товаром))." />
+		<text name="shopItem_emptyHoneycombBox" text="Рамки для сот" />
+		<text name="function_emptyHoneycombBox" text="Требуется для производства мёда, в ящике рамки для сот, которые нужно вставить в улей. В улий нужно 2 коробки рамок для сот." />
+		<text name="shopItem_fullHoneycombBox" text="Ванна для сот" />
+		<text name="function_fullHoneycombBox" text="Требуется для опустошения ульев и транспортировки сот. Является многоразовой (не продается вместе с товаром). Обратите внимание, чтобы полностью опустошить улей необходимо 2 таких ванны." />
+		<text name="shopItem_beesBox" text="Медоносные пчелы" />
+		<text name="function_beesBox" text="Требуются для производства мёда, это пчелиная семья с около 20000 пчелами." />
+		<text name="shopItem_fillableHoneyBucket" text="Ёмкость для мёда" />
+		<text name="function_fillableHoneyBucket" text="Требуется для наполнения медом из медогонки. Является многоразовой (не продается вместе с товаром)." />
+		<text name="shopItem_fillableJuiceBarrel" text="Бочка (заполняемая) " />
+		<text name="function_fillableJuiceBarrel" text="Необходим для транспортировки или хранения фруктового сока." />
+		<text name="shopItem_gasBottle" text="Газовый баллон" />
+		<text name="function_gasBottle" text="Газовый баллон, заполненный пропаном, необходим для работы газовых установок." />
+	+	<text name="shopItem_biogasBottle" text="Газовый баллон" />
+	+	<text name="function_biogasBottle" text="Газовый баллон, заполненный биогазом, необходим для сжигания в газовых установках." />
+		<text name="shopItem_labCanister" text="Сычужный фермент" />
+		<text name="function_labCanister" text="Жидкий сычужный фермент - натуральный продукт, необходимый для производства сыра. Благодаря разнообразию содержащихся в нем ферментов натуральный сычужный фермент является незаменимым компонентом высококачественного сыра." />
+		<text name="shopItem_ibcTank_fillable" text="Цистерна IBC (многоразового использования)" />
+		<text name="function_ibcTank_fillable" text="Промежуточный контейнер для массовых грузов используется для транспортировки и хранения жидкостей. Цистерны IBC являются объектами многоразового использования и могут использоваться повторно по мере необходимости." />
+		<text name="shopItem_ibcTank_fertilizer" text="Цистерна с Жидкими удобрениями" />
+		<text name="shopItem_ibcTank_herbicide" text="Цистерна с Гербицидом" />
+		<text name="shopItem_ibcTank_rubinTT" text="Цистерна с Rubin® TT" />
+		<text name="function_ibcTank_rubinTT" text="Rubin® TT™ это препарат для предотвращения заболеваний зерновых культур. Используется как добавка при производстве семян в SeedMaster." />
+		<text name="shopItem_woodShavingsPackage" text="Подстилка для животных" />
+		<text name="function_woodShavingsPackage" text="Эта высококачественная подстилка для животных отвечает самым высоким требованиям к выращиванию кур и лошадей. Она состоит из рыхлой древесной стружки, как отходов столярного произвордства." />
+	+	<text name="shopItem_baleStrawSmall" text="Тюк соломы (маленький) " />
+	+	<text name="function_baleStrawSmall" text="Используется в качестве подстилки для животных в небольших стойлах. Тюк имеет небольшую вместимость и очень удобен, благодаря небольшому весу его можно перемещать вручную." />
+	+	<text name="shopItem_cryoBarrel" text="Бак охлаждения (пустой)" />
+	+	<text name="function_cryoBarrel" text="Контейнер-рефрижератор используется для транспортировки и хранения спермы быков. Сперма быков необходима при осеменении коров в коровнике. Есть 2 конфигурации этого контейнера на выбор: пустой контейнер (объект многоразового использования) или уже заполненный контейнер (одноразовый объект)." />
+	+	<text name="shopItem_mediKitCalf" text="Медицин.препарат Теленок+" />
+	+	<text name="function_mediKitCalf" text="Лекарство, способствующее росту телят. Требуется, если теленок не продолжает насыть. Пожалуйста, используйте только в экстренных случаях и для больных телят!" />
+	+	<text name="shopItem_calfMilkPowderBag" text="Сухое молоко для телят" />
+	+	<text name="function_calfMilkPowderBag" text="Сухое молоко для выращивания телят. Сухое молоко необходимо сначала смешать с подходящей мешалкой и небольшим количеством воды." />
+	+	<text name="shopItem_fillableMayonnaiseBucket" text="Ведро для майонеза" />
+	+	<text name="function_fillableMayonnaiseBucket" text="Это ведро необходимо для создания домашнего майонеза, это ведро многоразового использования и не продается вместе с ним. " />
+	+	<text name="shopItem_chickBox" text="Ящик для перевозки цыплят" />
+	+	<text name="function_chickBox" text="Необходим для транспортировки вылупившихся птенцов." />
+
+		<!-- Objects/FeedBags -->
+	+	<text name="shopItem_feedBagDogFood" text="Собачий корм" />
+	+	<text name="function_feedBagDogFood" text="Мешок корма для собак." />
+	+	<text name="shopItem_feedBagChickenFood" text="Куриный корм" />
+	+	<text name="function_feedBagChickenFood" text="Мешок с куриным кормом." />
+
+		<!-- Fertilizer/Compost Expansion -->
+		<text name="shopItem_bigBagFertiPro" text="Промышленный мешок с гранулированным FertiPro®" />	
+		<text name="function_bigBagFertiPro" text="FertiPro® является гранулированным удобрением и используется для производства жидких удобрений в FertiMixer™" />	
+		<text name="shopItem_fertiMixerLQ" text="FertiMixerLQ™" />	
+		<text name="function_fertiMixerLQ" text="Мобильная станция смешивания для производства жидких удобрений. Для производства необходимы вода и гранулированный FertiPro®. Фронтальный погрузчик облегчает транспортировку." />	
+		<text name="shopItem_fertiMixerSLD" text="FertiMixerSLD™" />	
+		<text name="function_fertiMixerSLD" text="Мобильная станция смешивания для производства твердых удобрений. Для производства требуется следующее сырье: азот (N), фосфор (P) и калий (K). Навесное оборудование для фронтального погрузчика облегчает транспортировку FertiMixer." />	
+		<text name="shopItem_ingredientsDispenser" text="Бункер-дозатор" />	
+		<text name="function_ingredientsDispenser" text="Бункер-дозатор для покупки сырья, необходимого для производства твердых удобрений: азота (N), фосфора (P) и калия (K)." />
+		<text name="enterText_fertiMixerLQ" text="Запустить FertiMixerLQ" />	
+		<text name="enterText_fertiMixerSLD" text="Запустить FertiMixerSLD" />
+		<text name="enterText_compostMaster" text="Запустить CompostMaster" />		
+		
+		<!-- Base on Vehicles -->
+		<text name="shopItem_hayBarn" text="Воздуходувка для соломы" />	
+		<text name="enterText_haybarn" text="Запустить Воздуходувку для соломы" />	
+		<text name="typeDesc_automaticHayBarn" text="Воздуходувка для соломы" />	
+		<text name="enterText_vertiMix" text="Запустить VertiMix" />	
+		<text name="NEEDED_MIXING_TIME" text="Время обработки:" />	
+		<text name="headerText_vertimixTMR" text="Соотношение смешивания (Моносмесь):" />	
+		<text name="headerText_vertimixPIG" text="Соотношение смешивания (Корм для свиней):" />	
+		<text name="info_tipSidePipe" text="Разгрузочная труба" />	
+		<text name="info_tipSideSilo" text="Перегрузка в силос с кормом для свиней" />	
+		<text name="enterText_baleStorage" text="Запустить Balestorage" />	
+		<text name="enterText_seedMaster" text="Запустить SeedMaster" />	
+		<text name="shopItem_grainMill" text="Зерновая мельница" />	
+		<text name="shopItem_hayDryer" text="Сушилка травы" />	
+		<text name="typeDesc_hayDryer" text="Сушилка травы" />	
+		<text name="enterText_hayDryer" text="Запустить сушилку травы" />	
+		<text name="headerText_hayDryer" text="Сушилка травы" />	
+		<text name="motor_hayDryer" text="Сушилка травы" />	
+		<text name="shopItem_hayDryerOverloadModul" text="Загрузочный модуль сушилки травы" />	
+		<text name="switch_to_english" text="переключить на английский" />	
+		<text name="switch_to_german" text="переключить на немецкий" />	
+		<text name="info_tipSideDryer" text="выгрузить из сушильной камеры" />	
+		<text name="info_tipSideStorage" text="выгрузить из камеры для сена" />	
+		<text name="info_tipSideOverload" text="перегрузка в камеру для сена" />	
+		<text name="enterText_bigBagMax" text="Запустить BigBag Max" />
+		<text name="enterText_milkingParlour" text="Запустить доильный зал" />	
+		<text name="shopItem_milkingParlour" text="Доильный зал" />	
+		<text name="typeDesc_milkingParlour" text="Доильный зал" />	
+		<text name="motor_milkingParlour" text="Доильный зал" />	
+		<text name="enterText_milkRobot" text="Запустить доилку" />	
+		<text name="shopItem_milkRobot" text="Доилка" />	
+		<text name="typeDesc_milkRobot" text="Доилка" />	
+		<text name="motor_milkRobot" text="Доилка" />
+		<text name="enterText_mapStorageSilo" text="Управление хранилищем" />	
+		<text name="triggerMode_on" text="переключиться на запуск выгрузки" />	
+		<text name="triggerMode_off" text="перейти на выгрузку из трубы" />			
+		<text name="function_fordTransit" text="Вы можете использовать автофургон для перевозки различных грузов. Возможны дальнейшие настройки в магазине." />	
+		<text name="typeDesc_fordTransit" text="Форд Транзит" />
+		<text name="shopItem_honeyExtractor" text="Медогонка" />	
+		<text name="enterText_honeyExtractor" text="Включить Медогонку" />	
+		<text name="function_honeyExtractor" text="Требуется для извлечения мёда из сотовых рамок. Для слива мёда необходима ёмкость для мёда. Мед может быть продан в подходящей торговой точке." />
+		<text name="headerText_honeyExtractor" text="Медогонка" />			
+		<text name="shopItem_fruitPress" text="Пресс для сока™" />	
+		<text name="enterText_fruitPress" text="Включить пресс для сока" />	
+		<text name="function_fruitPress" text="Необходим для производства яблочного сока. Для сбора яблочного сока из пресса необходима деревянная бочка (покупается в дилерском центре)." />			
+		<text name="headerText_fruitPress" text="Пресс для сока™" />
+		<text name="shopItem_waterPoint01" text="Набор воды - Пекарня" />	
+		<text name="shopItem_waterPoint02" text="Набор воды - Мойка" />
+	#	<text name="shopItem_waterPoint03" text="Набор воды" />
+		<text name="shopItem_baggingMachine" text="Упаковочная машина" />	
+		<text name="enterText_baggingMachine" text="Машина для упаковки в мешки" />	
+		<text name="function_baggingMachine" text="С помощью этой машины сыпучий материал можно фасовать в удобные мешки. Для транспортировки машины можно использовать вилочный захват для поддонов и прицеп с платформой." />
+		<text name="configuration_weightPlateTitle" text="Весовая" />		
+		<text name="configuration_valueWoodPlate" text="Деревянные доски" />		
+		<text name="configuration_valueMetallPlate" text="Металлическая пластина" />
+	+	<text name="shopItem_hoseHolderSmallSingle" text="Держатель шланга (узкий 1-ходовой)" />		
+	+	<text name="enterText_leadableAnimalCalf" text="Ведущий теленок" />		
+	+	<text name="leadableAnimalCalf_turnOnText" text="Режим движения включен" />		
+	+	<text name="leadableAnimalCalf_turnOffText" text="Режим движения отключен" />		
+	+	<text name="shopItem_chargeStation01" text="Зарядная станция" />			
+		
+			<!-- Vehicle Storages -->
+		<text name="shopItem_universalStorageSilo" text="Универсальный элеватор" />	
+		<text name="shopItem_milkStorageTank" text="Бак для хранения молока" />	
+		<text name="shopItem_milkHouseTank" text="Хранение молока молочного хранилища" />
+		<text name="shopItem_cheeseHouseMilkTank" text="Хранение молока сыроварни" />
+		
+		<!-- Vehicles -->	
+		<text name="function_siloHopper" text="Используется для заполнения стационарных хранилищ расположенных на карте Hof Bergmann." />	
+		<text name="shopItem_butterMax" text="Маслобойка" />	
+		<text name="function_butterMax" text="Для производства сливочного масла. Примечание: необходимы бочки для масла." />	
+		<text name="headerText_butterMax" text="Маслобойка" />	
+		<text name="enterText_butterMax" text="Запустить маслобойку" />	
+		<text name="shopItem_fuelStorage" text="Хранилище топлива" />	
+		<text name="shopItem_liquidManureStorage" text="Хранилище жидкого навоза" />
+	+	<text name="typeDesc_liquidManureStorage" text="Хранение жидкого навоза " />	
+	+	<text name="enterText_liquidManureStorage" text="Включить клапан потока шлама" />	
+	+	<text name="shopItem_bioGasPlantDigestatePart" text="Резервуар для сбора дигестата" />	
+	+	<text name="typeDesc_bioGasPlantDigestatePart" text="Резервуар для сбора дигестата" />	
+	+	<text name="enterText_bioGasPlantDigestatePart" text="Управление клапаном: бак дигестата" />
+		<text name="typeDesc_production" text="Производство" />
+		<text name="startFillText_milkingParlour" text="Начать дойку" />	
+		<text name="stopFillText_milkingParlour" text="Окончить дойку" />
+		<text name="function_feederExtented" text="Этот кормосмеситель смешивает силос из кукурузы, сено и солому в моносмесь (состоящий из 60% основного корма и 40% концентрированного корма) чтобы кормить коров." />
+	+	<text name="shopItem_mobileMilkingStand" text="Мобильный доильный аппарат" />
+	+	<text name="function_mobileMilkingStand" text="Этот мобильный доильный аппарат нужен для доения коров на пастбищах." />
+	+	<text name="typeDesc_mobileMilkStand" text="Мобильный доильный аппарат" />
+	+	<text name="enterText_mobileMilkingStand" text="Мобильный доильный аппарат. (Operate)" />
+	+	<text name="shopItem_pushableMixerWagon" text="Тележка-кормораздатчик "/>
+	+ <text name="shopItem_milkShuttle" text="Транспортировщик молока"/>
+	+	<text name="function_pushableMixerWagon" text="Небольшой электрический миксер-кормораздатчик для толкания. Этот кормосмеситель подходит только для производства кормов для свиней."/>
+	+	<text name="function_milkShuttle" text="MilkShuttle / Молочное такси используется для доставки телят. Для производства молока для выращивания телят требуются вода и сухое молоко, которые продаются отдельно."/>
+	+	<text name="typeDesc_pushableMixerWagon" text="Тележка-кормораздатчик для семян"/>
+	+	<text name="typeDesc_milkShuttle" text="Транспортировщик молока"/>
+	+	<text name="headerText_pushableMixerWagon" text="Соотношение смеси:"/>
+	+	<text name="enterText_pushableMixerWagon" text="Тележка-смеситель Control Feed!"/>
+	+	<text name="headerText_milkShuttle" text="Соотношение смеси:"/>
+	+	<text name="enterText_milkShuttle" text="Контрольный молочный транспортировщик!"/>
+
+		<!-- Fliegl Animal Transport Pack -->
+		<text name="category_flieglAnimalTransportPack" text="Fliegl Транспорт для животных" />	
+		<text name="name_flieglAnimalTruck" text="TGX 26.000 Animal" />	
+		<text name="function_animalTruck" text="Транспорт для животных на базе MAN в сотрудничестве с Fliegl." />
+		<text name="typeDesc_animalTruck" text="Перевозка скота" />			
+		<text name="name_flieglAnimalTrailer" text="Транспорт для животных" />	
+		<text name="name_flieglAnimalTrailerDS" text="Транспорт для животных DS" />	
+		<text name="unfold_FLAP" text="Открыть задний откидной борт" />	
+		<text name="fold_FLAP" text="Закрыть задний откидной борт" />	
+		<text name="configuration_backSteering" text="Подруливающая ось" />	
+		<text name="configuration_cabColor" text="Цвет кабины" />	
+		<text name="configuration_coverColor" text="Цвет тента" />	
+		<text name="configuration_buildUpColor" text="Цвет кузова" />
+
+		<!-- LSFM AT Mini -->
+		<text name="configuration_inputAttacherToolbar" text="Панель инструментов" />	
+		<text name="configuration_inputAttacherPullingMouth" text="Поводья? (Pulling Mouth)" />
+
+		<!-- Strautmann SEK802 -->
+		<text name="configuration_valueLoadingWagonP" text="Платформа" />	
+		<text name="configuration_valueLoadingWagonPBW" text="Платформа + Борта" />
+		<text name="function_specialTipper" text="Особенности: Возможна конфигурация с прицепом-платформой с дополнительными боковыми стенками для переносных предметов без автоматической разгрузки." />	
+		
+		<!-- Big Bag Pack -->
+		<text name="shopItem_bigBagChickenFeed" text="Промышленный мешок с куриным кормом" />	
+		<text name="function_bigBagChickenFeed" text="Концентрированный корм для цыплят." />	
+		<text name="shopItem_bigBagCowFeed" text="Промышленный мешок с комбикормом" />	
+		<text name="function_bigBagCowFeed" text="Готовая смесь для корма крупно-рогатова скота" />	
+		<text name="shopItem_bigBagHorseFeed" text="Промышленный мешок с кормом для лошадей" />	
+		<text name="function_bigBagHorseFeed" text="Концентрированный корм для ваших лошадей." />	
+		<text name="shopItem_bigBagPigFeed" text="Промышленный мешок с кормом для свиней" />	
+		<text name="function_bigBagPigFeed" text="Специальная готовая смесь для свиней." />	
+		<text name="shopItem_bigBagLifter" text="Подъемник для промышленных мешков" />	
+		<text name="typeDesc_bigBagLifter" text="Подъемник для промышленных мешков" />	
+		<text name="function_bigBagLifter" text="Навесной инструмент для подъема и транспортировки промышленных мешков LSFM . Можно настроить в магазине под тип погрузчика, инструмент совместим со всеми типами погрузчиков." />	
+		<text name="function_bigBagChickenFood" text="Пшеница - идеальный корм для ваших курей." />	
+		<text name="configuration_valueBlack" text="Черный" />
+
+				<!-- LSFM ATTACHMENT TOOLS -->
+		<text name="shopItem_adjustableFrontloaderPalletFork" text="Регулируемые вилы для поддонов" />		
+		<text name="function_adjustableFrontloaderPalletFork" text="Вилы для поддонов с регулируемыми вилками. Подходит для любого навесного оборудования для фронтальных погрузчиков." />		
+		<text name="shopItem_adjustableSkidSteerPalletFork" text="Регулируемые вилы для поддонов" />		
+		<text name="combinations_skidSteer" text="Мини-погрузчики" />		
+		<text name="function_adjustableSkidSteerPalletFork" text="Вилы для поддонов с регулируемыми вилками. Подходит для любого навесного оборудования для мини-погрузчиков." />
+		<text name="shopItem_lsfmUniversalHighDumpBucket" text="Универсальный ковш с высокой разгрузкой" />		
+		<text name="function_lsfmUniversalHighDumpBucket" text="Универсальный ковш с высокой разгрузкой. Подходит для любого навесного оборудования для фронтальных погрузчиков и мини-погрузчиков." />	
+		<text name="shopItem_lsfmTelehandlerFork" text="Регулируемые вилы для поддонов" />		
+		<text name="function_adjustableTelehandlerPalletFork" text="Вилы для поддонов с регулируемыми вилками. Подходит для любого навесного оборудования телескопических погрузчиков." />	
+		<text name="combinations_telehandler" text="Телескопический погрузчик" />	
+		<text name="shopItem_lsfmUniversalHighDumpBucketMini" text="Мини-ковш с высокой разгрузкой" />		
+		<text name="function_lsfmUniversalHighDumpBucketMini" text="Мини-ковш с высокой разгрузкой." />			
+		<text name="shopItem_adjustableFrontloaderPalletForkMini" text="Регулируемые вилы для поддонов Mini" />		
+		<text name="function_adjustableFrontloaderPalletForkMini" text="Вилы для поддонов с регулируемыми вилками." />		
+
+		<!-- Placeables -->
+		<text name="storageSilo_universal" text="Универсальное хранилище" />	
+		<text name="function_storageSilo_universal" text="Универсальное хранилище можно использовать практически для всех культур. Крышка должна быть открыта, чтобы заполнить бункер." />	
+		<text name="storageSilo_pigFood" text="Хранилище корма для свиней" />
+		<text name="shopItem_portManhole" text="Яма для утилизации" />
+		<text name="function_portManhole" text="Размещаемая яма, здесь можно утилизировать все жидкости, Внимание!!! Загрязнение окружающей среды наказывается штрафом." />
+		<text name="storage_milkHouse" text="Хранилище для молока" />
+	#	<text name="shopItem_bunkerSiloMaizeSilage" text="Бункерный силос - силос (кукуруза / сильфия)" />
+	#	<text name="shopItem_bunkerSiloGrassSilage" text="Бункерный силос - силос (трава)" />
+	#	<text name="function_bunkerSiloMaizeSilage" text="Бункерный силос для производства силоса (кукурузы / сильфии)." />
+	#	<text name="function_bunkerSiloGrassSilage" text="Бункерный силос для производства силоса (травы)." />
+		<text name="shopItem_oldFarmShed" text="Старый навес" />
+		<text name="function_oldFarmShed" text="Старый навес. Здесь Вы можете хранить технику или тюки." />
+	#	<text name="shopItem_foodDispenserSilo" text="Бункер дозатора корма (малый)" />
+	+	<text name="shopItem_foodDispenserSiloLarge" text="Бункер-дозатор кормов (большой)" />	
+		<text name="function_foodDispenserSilo" text="Бункер для хранения разных видов кормов. Примечания: Для наполнения клапан должен быть открыт в точке опрокидывания. Для разгрузки необходимо сначала открыть золотниковый клапан." />
+	+	<text name="shopItem_bigBagFrame" text="Стойка BigBag для больших мешков" />
+	+	<text name="function_bigBagFrame" text="Стойка BigBag используется для размещения на ней больших сумок LSFM. Этот простой метод позволяет опорожнять BigBag прямо в тачку. Чтобы залить тачку, достаточно просто переместить ее под стойку." />
+	+	<text name="shopItem_ibcTankFrame" text="Стойка IBC-Tank для цистерны" />
+	+	<text name="function_ibcTankFrame" text="Стойка для цистерн IBC используется для размещения цистерн LSFM IBC, этот простой метод позволяет наполнять ведро непосредственно на баке IBC." />
+	+	<text name="shopItem_freelandSiloGrass" text="Открытый силос - Силос (трава) " />
+	+	<text name="function_freelandSiloGrass" text="Открытый силос для производства силоса (травы) ." />
+	+	<text name="shopItem_freelandSiloMaize" text="Открытый силос - силос (кукуруза / сильфий) " />
+	+	<text name="function_freelandSiloMaize" text="Открытый силос для производства силоса (кукурузы / сильфии) ." />	
+
+		<!-- Decoration -->
+		<text name="shopItem_gnome" text="Садовый гном" />	
+		
+		<!-- Seasons -->
+		<text name="seasons_shopItem_RAM_TYPE_BLACK" text="Баран (чёрный)" />
+		<text name="seasons_shopItem_GOAT_TYPE_BROWN" text="Коза (коричневая)" />
+		<text name="seasons_shopItem_GOAT_TYPE_WHITE" text="Коза (белая)" />
+		<text name="seasons_shopItem_GOAT_TYPE_BLACK" text="Коза (черная)" />
+		<text name="seasons_shopItem_PIG2_TYPE_RED" text="Племенная свинья (розовая)" />
+		<text name="seasons_shopItem_PIG2_TYPE_WHITE" text="Племенная свинья (светлая)" />
+		<text name="seasons_shopItem_DUCK_TYPE_BROWN" text="Утка (коричневая)" />
+		<text name="seasons_shopItem_DUCK_TYPE_WHITE" text="Утка (белая)" />
+		<text name="seasons_shopItem_DUCK_TYPE_BLACK" text="Утка (черная)" />
+		<text name="seasons_shopItem_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
+		<text name="seasons_shopItem_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
+	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова молочная? (черная / белая / телячья)" />	
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
+	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Племенной бык (черный / белый)" />
+	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья молочная? (розовый / поросенок) " />
+		<text name="seasons_animalInfo_RAM_TYPE_BLACK" text="Баран (чёрный)" />
+		<text name="seasons_animalInfo_GOAT_TYPE_BROWN" text="Коза (коричневая)" />
+		<text name="seasons_animalInfo_GOAT_TYPE_WHITE" text="Коза (белая)" />
+		<text name="seasons_animalInfo_GOAT_TYPE_BLACK" text="Коза (черная)" />
+		<text name="seasons_animalInfo_PIG2_TYPE_RED" text="Племенная свинья (розовая)" />
+		<text name="seasons_animalInfo_PIG2_TYPE_WHITE" text="Племенная свинья (светлая)" />
+		<text name="seasons_animalInfo_DUCK_TYPE_BROWN" text="Утка (коричневая)" />
+		<text name="seasons_animalInfo_DUCK_TYPE_WHITE" text="Утка (белая)" />
+		<text name="seasons_animalInfo_DUCK_TYPE_BLACK" text="Утка (черная)" />
+		<text name="seasons_animalInfo_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
+		<text name="seasons_animalInfo_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
+	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова молочная? (черная / белая / телячья)" />	
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
+	+	<text name="seasons_animalInfo_BREEDINGBULL_TYPE_BLACK_WHITE" text="Племенной бык (черный / белый)" />	
+	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья молочная? (розовый / поросенок) " />	
+		
+		<!-- Object Storages by GTX - BaleStorages -->
+		<text name="category_baleStorages" text="Хранилища тюков" />	
+		<text name="ui_nextObjectLevel" text="Следующий объект" />
+		<text name="input_BALEMENU" text="Меню хранилища тюков" />		
+		<text name="shopItem_roundBaleStorageStraw" text="Хранилище для цилиндрических тюков (Солома)" />	
+		<text name="function_roundBaleStorageStraw" text="Хранилище для цилиндрических тюков соломы. Примечание: тюки не включены." />	
+		<text name="shopItem_roundBaleStorageHayHB" text="Хранилище для цилиндрических тюков (Сено)" />	
+		<text name="function_roundBaleStorageHay" text="Хранилище для цилиндрических тюков сена. Примечание: тюки не включены." />	
+	#	<text name="shopItem_roundBaleStorageSilage" text="Хранилище для цилиндрических тюков (трава)" />	
+	#	<text name="function_roundBaleStorageSilage" text="Хранилище для цилиндрических тюков (трава). Примечание: тюки не включены." />
+		<text name="shopItem_roundBaleStorageForage" text="Хранилище для цилиндрических тюков (Моносмесь)" />	
+		<text name="function_roundBaleStorageForage" text="Хранилище для цилиндрических тюков моносмеси. Примечание: тюки не включены." />
+	#	<text name="shopItem_roundBaleStorageMaizeSilage" text="Хранилище для цилиндрических тюков (кукуруза / сильфия) " />	
+	#	<text name="function_roundBaleStorageMaizeSilage" text="Хранилище для цилиндрических тюков (кукурузы / сильфии). Примечание: тюки не включены " />		
+		<text name="shopItem_roundBaleStorageMaizeStraw" text="Хранилище для цилиндрических тюков (кукурузная солома)" />	
+		<text name="function_roundBaleStorageMaizeStraw" text="Хранилище для цилиндрических тюков кукурузной соломы. Примечание: тюки не включены." />					
+		
+		<text name="shopItem_squareBaleStorageHayHB" text="Хранилище блочных тюков (Сено)" />	
+		<text name="function_squareBaleStorageHay" text="Хранилище для блочных тюков сена. Примечание: тюки не включены." />	
+		<text name="shopItem_squareBaleStorageStraw" text="Хранилище блочных тюков (Солома)" />	
+		<text name="function_squareBaleStorageStraw" text="Хранилище для блочных тюков соломы. Примечание: тюки не включены." />	
+		<text name="shopItem_squareBaleStorageSilage" text="Хранилище блочных тюков (Травяной силос)" />	
+		<text name="function_squareBaleStorageSilage" text="Хранилище для блочных тюков травяного силоса. Примечание: тюки не включены." />
+		<text name="shopItem_squareBaleStorageForage" text="Хранилище блочных тюков (Моносмесь)" />	
+		<text name="function_squareBaleStorageForage" text="Хранилище для блочных тюков моносмеси. Примечание: тюки не включены." />
+		<text name="shopItem_squareBaleStorageMaizeSilage" text="Хранилище блочных тюков (Кукурузный силос)" />	
+		<text name="function_squareBaleStorageMaizeSilage" text="Хранилище для блочных тюков кукурузного силоса. Примечание: тюки не включены." />
+		<text name="shopItem_squareBaleStorageMaizeStraw" text="Хранилище блочных тюков (Кукурузная солома)" />	
+		<text name="function_squareBaleStorageMaizeStraw" text="Хранилище для блочных тюков кукурузной соломы. Примечание: тюки не включены." />
+		
+	#	<text name="shopItem_squareBaleStorageStrawHS" text="Склад блочных тюков (сена) - чердак" />	
+	+	<text name="shopItem_squareBaleStorageStrawPS" text="Склад блочных тюков (солома) - чердак" />		
+		<text name="shopItem_baleRoundStoragePressCorridor" text="Временное хранение цилиндрических тюков" />		
+		<text name="shopItem_baleSquareStoragePressCorridor" text="Временное хранение блочных тюков" />		
+		
+		<!-- Object Storages by GTX - Shelfs -->
+		<text name="shopItem_woolShelf" text="Стеллаж для тюков с шерстью" />
+		<text name="input_WOOLBALEMENU" text="Меню управления стеллажом для тюков с шерстью" />	
+		<text name="unit_woolBales" text="Тюки с шерстью" />
+		
+		<text name="shopItem_cheeseShelf" text="Стеллаж для сыра" />
+		<text name="input_CHEESESHELFMENU" text="Меню управления стеллажом для сыра" />	
+		<text name="unit_cheeseLoaves" text="Сырные круги" />
+
+		<text name="shopItem_bakingMaterialShelf" text="Стеллаж для хранения ингредиентов для выпечки хлеба" />
+		<text name="input_BAKINGMATERIALSHELFMENU" text="Меню управления стеллажом" />
+		<text name="unit_yeastPackages" text="Упаковка с дрожжами" />
+		<text name="unit_flourBags" text="Мешки с мукой" />
+		
+		<text name="input_WOODCHIPSBAG_SHELFMENU" text="Меню управления стелажом для хранения" />	
+		<text name="shopItem_woodChipsShelf" text="Стелаж для хранения щепы (Пекарня)" />
+		<text name="unit_woodChipsBag" text="Мешки со щепой" />
+		<text name="shopItem_cellarStorageShelf" text="Стелаж для хранения щепы (Подвал)" />
+
+		<text name="input_WINEBARREL_SHELFMENU" text="Меню управления хранилищем бочек" />	
+		<text name="shopItem_wineBarrelShelf" text="Хранение для винных бочек" />
+		
+		<text name="shopItem_spermFridge" text="Холодильник для спермы" />
+		<text name="input_SPERMFRIDGEMENU" text="Меню управления холодильником" />	
+		<text name="unit_spermBuckets" text="Контейнер для спермы" />
+
+		<text name="shopItem_labWallRack" text="Настенная полка для канистр с сычужным ферментом" />
+		<text name="input_LABWALLRACKMENU" text="Меню управления полкой для канистр" />	
+		<text name="unit_labCanisters" text="Канистра сычужного фермента" />
+
+		<text name="shopItem_atticStorage" text="Чердак хранения" />
+		<text name="input_ATTICSTORAGEMENU" text="Меню управления чердаком" />
+		<text name="unit_bigBags" text="Промышленные мешки" />	
+		<text name="unit_pallets" text="Поддоны" />
+		<text name="unit_ibcTanks" text="IBC Цистерны" />
+
+		<text name="shopItem_atticStorageChickenStable" text="Чердак - хлев для кур" />
+		<text name="unit_sacks" text="Мешки" />
+
+	+	<text name="shopItem_gasBottleStorageShelf" text="Склад газовых баллонов" />
+		<text name="input_GASBOTTLESHELFMENU" text="Меню управления складом газовых баллонов" />
+
+	+	<text name="shopItem_coolingHouse" text="Холодильный склад" />
+		<text name="input_COOLINGHOUSEMENU" text="Меню управления холодильной камеры" />	
+		<text name="unit_eggBoxes" text="Ящики для яиц" />	
+		<text name="unit_milkCans" text="Бидоны для молока " />	
+		<text name="unit_sucklingPigs" text="Поросята (сырые) " />
+
+	+	<text name="shopItem_horseStableStorage" text="Место хранения подстилки" />
+		<text name="input_STORAGEPLACEMENU" text="Меню управления местом хранения подстилки" />
+
+	+	<text name="shopItem_calfMilkPowderShelf" text="Место для хранения сухого молока" />
+		<text name="input_SHELFMENU" text="Меню управления полками хранилища сухого молока" />
+
+	+	<text name="shopItem_mayoRefrigerator" text="Холодильник для майонеза" />
+		<text name="input_REFRIGERATORMENU" text="Меню управления холодильником" />	
+		<text name="unit_mayonnaiseBuckets" text="Ведра для майонеза" />
+
+		<!-- FillTypeConverter based Script by GTX -->
+		
+		<!-- FixFermenter -->
+		<text name="shopItem_fixFerm" text="Ферментатор" />	
+		<text name="input_fixFerm" text="Не ферментировано:" />	
+		<text name="output_fixFerm" text="Ферментировано:" />
+
+		<!-- BakeHouse -->		
+		<text name="shopItem_doughMixer" text="Тестомес" />	
+		<text name="doughMixer_input_water" text="Необходимо: 1 ведро воды" />	
+		<text name="doughMixer_input_flour" text="Необходимо: 1/2 мешка муки" />	
+		<text name="doughMixer_input_yeast" text="Необходимо: 1 пакет дрожжей" />	
+		<text name="output_doughMixer" text="Булка из теста:" />
+		<text name="unit_doughlings" text="Тесто" />		
+		
+		<text name="shopItem_bakingOven" text="Духовка (хлеб)" />	
+		<text name="bakingOven_input1" text="Печное топливо:" />	
+		<text name="bakingOven_input2" text="Булки из теста:" />	
+		<text name="bakingOven_output" text="Выпекаемый хлеб:" />
+		<text name="unit_bread" text="Хлеб:" />
+
+		<!-- Butchery -->
+		<text name="shopItem_slaughterHouse" text="Скотобойня" />
+		<text name="slaughterHouse_input" text="Отгружено убойного скота, кг:" />
+	+	<text name="slaughterHouse_input2" text="Отгружено поросят:" />
+		<text name="slaughterHouse_output" text="Продукты:" />
+		<text name="unit_meatBoxes" text="Ящики для мяса" />
+
+		<!-- SlaughterHouse -->	
+	#	<text name="shopItem_slaughterHouseFactory" text="Бойня" />
+		
+		<!-- BiogasPlant -->
+		<text name="shopItem_bgp" text="Биогазовая установка" />
+		<text name="input1_bioGasPlant" text="Субстрат (твёрдый):" />
+		<text name="input2_bioGasPlant" text="Субстрат (жидкий):" />
+		<text name="output1_bioGasPlant" text="Ферментация:" />
+		<text name="output2_bioGasPlant" text="Продукция биогаза:" />		
+
+		<!-- Greenhouses -->
+		<text name="shopItem_lsfm_greenhouseLettuce" text="Теплица для салата Латук" />
+		<text name="shopItem_lsfm_greenhouseTomatoes" text="Теплица для томатов" />
+		<text name="shopItem_lsfm_greenhouseRedPeppers" text="Теплица для сладкого перца" />
+		<text name="function_lsfm_greenHouses" text="Теплицы нуждаются в воде и навозе / компосте, саженцы необходимы для выращивания салата. Сбор урожая происходит с помощью маленьких удобных овощных ящиков. Овощи могут быть проданы в подходящей торговой точке." />
+		<text name="shopItem_lsfm_salesBooth" text="Овощной ларёк" />
+		<text name="function_lsfm_salesBooth" text="Здесь вы можете продавать произведенные овощи из теплиц. Внимание, доставленный товар продается не сразу, а в течение дня. Деньги будут зачислены в конце дня." />
+		<text name="greenhouse_input1" text="Посажено:"/>
+		<text name="greenhouse_input2" text="Полито:" />
+		<text name="greenhouse_input3" text="Питательные вещества/удобрения:" />
+		<text name="greenhouse_output" text="Урожай:" />
+
+		<!-- Cheese House -->
+		<text name="shopItem_cheeseProduction1" text="Производство сыра" />
+		<text name="shopItem_cheeseProduction2" text="Производство козьего сыра" />
+		<text name="cheeseProduction_input" text="Молочный контейнер:" />
+		<text name="cheeseProduction_input2" text="Ферменты:" />
+		<text name="cheeseProduction_output" text="Произведённый сыр:" />
+		
+		<!-- Grain Mill -->
+		<text name="shopItem_grainMillWholeGrain" text="Производство цельнозерновой муки" />
+		<text name="shopItem_grainMillFlour" text="Производство муки" />
+		<text name="input_grainMill" text="Поступление товаров:" />
+		<text name="output_grainMill" text="Отгрузка товаров:" />
+		
+		<!-- Beehive -->
+		<text name="shopItem_beehiveWhite" text="Улей(белый)" />
+		<text name="shopItem_beehiveYellow" text="Улей(желтый)" />
+		<text name="shopItem_beehiveRed" text="Улей(красный)" />
+		<text name="hudHeaderName_beehive" text="Ульи" />
+		<text name="function_beehiveHB" text="Улей служит жильем для пчел и необходим для производства меда." />
+		<text name="beehive_input1" text="Пчелиная семья:" />
+		<text name="beehive_input2" text="Принадлежности:" />
+		<text name="beehive_output" text="Продукт:" />
+		
+		<!-- Winecellar -->
+		<text name="shopItem_wineCellar" text="Винный погреб" />
+		<text name="input_wineCellar" text="Хранится яблочного сока:" />
+		<text name="output_wineCellar" text="Хранится сидра:" />
+		<text name="unit_barrels" text="Бочки" />
+
+		<!-- Cooperage -->
+		<text name="shopItem_cooperage" text="Бондарня" />
+		<text name="cooperage_input" text="Сырьё:" />
+		<text name="cooperage_output" text="Производство бочек:" />
+		
+		<!-- ForageStar -->
+		<text name="shopItem_forageStar" text="Кормовая Звезда™ - моносмесь" />
+		<text name="shopItem_forageStar2" text="Кормовая Звезда™ - корм для свиней" />
+		<text name="input_forageStar" text="Сырьё:" />
+		<text name="output_forageStar" text="Производство моносмеси:" />
+		<text name="output_forageStar2" text="Производство корма для свиней:" />
+
+		<!-- GrainDryer -->
+		<text name="shopItem_grainDryer" text="Сушилка для зерна" />
+		<text name="input1_grainDryer" text="Зерно:" />
+		<text name="input2_grainDryer" text="Топливо:" />
+		<text name="output_grainDryer" text="Процесс сушки:" />
+
+		<!-- BeetHacker -->
+		<text name="shopItem_beetHacker" text="BeetHacker® Измельчитель свеклы" />
+		<text name="shopItem_beetHackerUsed" text="BeetHacker® Измельчитель свеклы(старый)" />
+		<text name="function_beetHacker" text="Измельчитель свеклы можно использовать для переработки сахарной свеклы в свекольный жом, который можно продавать в качестве корма для животных или использовать в качестве корма." />
+		<text name="input_beetHacker" text="Исходный материал:" />
+		<text name="output_beetHacker" text="Обработанный:" />
+
+		<!-- GasTrader -->
+		<text name="shopItem_gasTrader" text="Газовый трейдер Huber" />
+		<text name="input_gasTrader" text="Доставленый газ :" />
+		<text name="output_gasTrader" text="Заправленный газ:" />
+		<text name="unit_gasBottles" text="Газовые баллоны" />
+
+		<!-- OilMill -->	
+		<text name="shopItem_oilMillProduction" text="Магазин Масляного завода" />
+		<text name="input_oilMillProduction" text="Масло фруктов:" />
+		<text name="output_oilMillProduction" text="Продукт:" />
+
+		<!-- BioDieselPlant -->	
+		<text name="shopItem_bioDieselPlant" text="Магазин Биодизельного завода" />
+		<text name="input_bioDieselPlant" text="Масла / Жиры :" />
+		<text name="output_bioDieselPlant" text="Произведенное топливо :" />
+
+		<!-- MayonnaiseMaker -->	
+		<text name="shopItem_mayonnaiseMaker" text="Производитель майонеза" />
+		<text name="mayonnaiseMaker_input_egg" text="Ингредиент 1:" />
+		<text name="mayonnaiseMaker_input_vegetableOil" text="Ингредиент 2:" />
+		<text name="output_mayonnaiseMaker" text="Продукт:" />
+
+		<!-- EggIncubator -->	
+		<text name="shopItem_eggIncubator" text="Инкубатор" />
+		<text name="input_eggIncubator" text="Ящик для инкубации яиц:" />
+		<text name="output_eggIncubator" text="Вылупишиеся цыплята:" />
+		
+		<!-- Rainwater Storage Tank -->
+		<text name="shopItem_rainWaterStorage" text="Емкость сбора дождевой воды" />
+		<text name="function_rainWaterStorage" text="Этот резервуар используется для сбора дождевой воды. Наполнение происходит автоматически, когда идет дождь. Воду можно забрать с помощью прицепа-цистерны." />
+		<text name="gc_rainWaterStorage" text="Емкость сбора дождевой воды" />
+		<text name="gc_rainWaterStorageDesc" text="Этот резервуар используется для сбора дождевой воды. Наполнение происходит автоматически, когда идет дождь. Воду можно забрать с помощью прицепа-цистерны." />
+		<text name="gc_rainWaterStorage_inputsHeaderTitle" text="Дождевая вода" />
+		<text name="gc_rainWaterStorage_outputsHeaderTitle" text="Дождевая вода" />
+		<text name="gc_rainWaterStorage_input1" text="Дождевая вода" />
+		<text name="gc_rainWaterStorage_productLine" text="Емкость сбора дождевой воды" />
+			
+		<!-- Claas Diesel Addon -->
+		<text name="shopItem_claasFuelBarrel" text="Топливная бочка" />
+		<text name="shopItem_claasFuelBarrelPallet" text="Топливная бочка на паллете" />
+		<text name="shopItem_claasBarrelLifter" text="Подъемник бочек" />
+		<text name="function_claasFuelBarrel" text="Бочки используются для перевозки топлива. Из этой бочки может заправлен транспорт и она может быть пополнена. Внимание! Заправка невозможна на автозаправочных станциях." />
+		<text name="function_claasBarrelLifter" text="Подъемник бочек применяется для подъема и транспортировки бочек. Подходит для любого фронтального погрузчика." />
+		<text name="function_claasFuelBarrelPallet" text="Поддон с бочкой используются для перевозки топлива. Из этой бочки может заправлен транспорт и она может быть пополнена Бочки многоразового использования. Внимание! Заполнение невозможно на автозаправочных станциях" />
+		<text name="configTitle_barrelPump" text="Топливный насос" />
+		
+		<!-- Silo Displays -->	
+		<text name="siloDisplay_guiWarning" text="Выбраны повторяющиеся виды продуктов!" />
+		<text name="siloDisplay_guiConnected" text="Связанные хранилища:  %s" />
+		<text name="siloDisplay_guiAvailable" text="Доступные типы заполнения:  %s" />
+
+		<!-- Vehicle Radar -->	
+		<text name="VehicleRadar_Default" text="Вы превысили скорость на %1dkm/ч, и вы должны заплатить %s." />
+		<text name="VehicleRadar_info" text="%€ за слишком быструю езду" />	
+	</texts>
+</l10n>
+
+<!-- 
+
+Примечание к переводу:
+
++ добавлено
+# изменено 
+
+ -->
