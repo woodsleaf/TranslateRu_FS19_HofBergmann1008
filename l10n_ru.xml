@@ -557,7 +557,7 @@
 
 		<!-- LSFM AT Mini -->
 		<text name="configuration_inputAttacherToolbar" text="Панель инструментов" />	
-		<text name="configuration_inputAttacherPullingMouth" text="Поводья? (Pulling Mouth)" />
+		<text name="configuration_inputAttacherPullingMouth" text="Поводья (Pulling Mouth)" />
 
 		<!-- Strautmann SEK802 -->
 		<text name="configuration_valueLoadingWagonP" text="Платформа" />	
@@ -628,55 +628,55 @@
 		<text name="seasons_shopItem_GOAT_TYPE_BROWN" text="Коза (коричневая)" />
 		<text name="seasons_shopItem_GOAT_TYPE_WHITE" text="Коза (белая)" />
 		<text name="seasons_shopItem_GOAT_TYPE_BLACK" text="Коза (черная)" />
-		<text name="seasons_shopItem_PIG2_TYPE_RED" text="Племенная свинья (розовая)" />
-		<text name="seasons_shopItem_PIG2_TYPE_WHITE" text="Племенная свинья (светлая)" />
+		<text name="seasons_shopItem_PIG2_TYPE_RED" text="Свинья (розовая)" />
+		<text name="seasons_shopItem_PIG2_TYPE_WHITE" text="Свинья (светлая)" />
 		<text name="seasons_shopItem_DUCK_TYPE_BROWN" text="Утка (коричневая)" />
 		<text name="seasons_shopItem_DUCK_TYPE_WHITE" text="Утка (белая)" />
 		<text name="seasons_shopItem_DUCK_TYPE_BLACK" text="Утка (черная)" />
 		<text name="seasons_shopItem_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
 		<text name="seasons_shopItem_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
-	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова молочная? (черная / белая / телячья)" />	
+	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова (черная / белая / телячья)" />	
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
-	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Племенной бык (черный / белый)" />
-	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья молочная? (розовый / поросенок) " />
+	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черный / белый)" />
+	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья (розовый / поросенок) " />
 		<text name="seasons_animalInfo_RAM_TYPE_BLACK" text="Баран (чёрный)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_BROWN" text="Коза (коричневая)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_WHITE" text="Коза (белая)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_BLACK" text="Коза (черная)" />
-		<text name="seasons_animalInfo_PIG2_TYPE_RED" text="Племенная свинья (розовая)" />
-		<text name="seasons_animalInfo_PIG2_TYPE_WHITE" text="Племенная свинья (светлая)" />
+		<text name="seasons_animalInfo_PIG2_TYPE_RED" text="Свинья (розовая)" />
+		<text name="seasons_animalInfo_PIG2_TYPE_WHITE" text="Свинья (светлая)" />
 		<text name="seasons_animalInfo_DUCK_TYPE_BROWN" text="Утка (коричневая)" />
 		<text name="seasons_animalInfo_DUCK_TYPE_WHITE" text="Утка (белая)" />
 		<text name="seasons_animalInfo_DUCK_TYPE_BLACK" text="Утка (черная)" />
 		<text name="seasons_animalInfo_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
 		<text name="seasons_animalInfo_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
-	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова молочная? (черная / белая / телячья)" />	
+	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова (черная / белая / телячья)" />	
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
-	+	<text name="seasons_animalInfo_BREEDINGBULL_TYPE_BLACK_WHITE" text="Племенной бык (черный / белый)" />	
-	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья молочная? (розовый / поросенок) " />	
+	+	<text name="seasons_animalInfo_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черный / белый)" />	
+	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья (розовый / поросенок) " />	
 		
 		<!-- Object Storages by GTX - BaleStorages -->
 		<text name="category_baleStorages" text="Хранилища тюков" />	
 		<text name="ui_nextObjectLevel" text="Следующий объект" />
 		<text name="input_BALEMENU" text="Меню хранилища тюков" />		
-		<text name="shopItem_roundBaleStorageStraw" text="Хранилище для цилиндрических тюков (Солома)" />	
-		<text name="function_roundBaleStorageStraw" text="Хранилище для цилиндрических тюков соломы. Примечание: тюки не включены." />	
-		<text name="shopItem_roundBaleStorageHayHB" text="Хранилище для цилиндрических тюков (Сено)" />	
-		<text name="function_roundBaleStorageHay" text="Хранилище для цилиндрических тюков сена. Примечание: тюки не включены." />	
-	#	<text name="shopItem_roundBaleStorageSilage" text="Хранилище для цилиндрических тюков (трава)" />	
-	#	<text name="function_roundBaleStorageSilage" text="Хранилище для цилиндрических тюков (трава). Примечание: тюки не включены." />
-		<text name="shopItem_roundBaleStorageForage" text="Хранилище для цилиндрических тюков (Моносмесь)" />	
-		<text name="function_roundBaleStorageForage" text="Хранилище для цилиндрических тюков моносмеси. Примечание: тюки не включены." />
-	#	<text name="shopItem_roundBaleStorageMaizeSilage" text="Хранилище для цилиндрических тюков (кукуруза / сильфия) " />	
-	#	<text name="function_roundBaleStorageMaizeSilage" text="Хранилище для цилиндрических тюков (кукурузы / сильфии). Примечание: тюки не включены " />		
-		<text name="shopItem_roundBaleStorageMaizeStraw" text="Хранилище для цилиндрических тюков (кукурузная солома)" />	
-		<text name="function_roundBaleStorageMaizeStraw" text="Хранилище для цилиндрических тюков кукурузной соломы. Примечание: тюки не включены." />					
+		<text name="shopItem_roundBaleStorageStraw" text="Хранилище для рулонных тюков (Солома)" />	
+		<text name="function_roundBaleStorageStraw" text="Хранилище для рулонных тюков соломы. Примечание: тюки не включены." />	
+		<text name="shopItem_roundBaleStorageHayHB" text="Хранилище для рулонных тюков (Сено)" />	
+		<text name="function_roundBaleStorageHay" text="Хранилище для рулонных тюков сена. Примечание: тюки не включены." />	
+	#	<text name="shopItem_roundBaleStorageSilage" text="Хранилище для рулонных тюков (трава)" />	
+	#	<text name="function_roundBaleStorageSilage" text="Хранилище для рулонных тюков (трава). Примечание: тюки не включены." />
+		<text name="shopItem_roundBaleStorageForage" text="Хранилище для рулонных тюков (Моносмесь)" />	
+		<text name="function_roundBaleStorageForage" text="Хранилище для рулонных тюков моносмеси. Примечание: тюки не включены." />
+	#	<text name="shopItem_roundBaleStorageMaizeSilage" text="Хранилище для рулонных тюков (кукуруза / сильфия) " />	
+	#	<text name="function_roundBaleStorageMaizeSilage" text="Хранилище для рулонных тюков (кукурузы / сильфии). Примечание: тюки не включены " />		
+		<text name="shopItem_roundBaleStorageMaizeStraw" text="Хранилище для рулонных тюков (кукурузная солома)" />	
+		<text name="function_roundBaleStorageMaizeStraw" text="Хранилище для рулонных тюков кукурузной соломы. Примечание: тюки не включены." />					
 		
 		<text name="shopItem_squareBaleStorageHayHB" text="Хранилище блочных тюков (Сено)" />	
 		<text name="function_squareBaleStorageHay" text="Хранилище для блочных тюков сена. Примечание: тюки не включены." />	
@@ -693,7 +693,7 @@
 		
 	#	<text name="shopItem_squareBaleStorageStrawHS" text="Склад блочных тюков (сена) - чердак" />	
 	+	<text name="shopItem_squareBaleStorageStrawPS" text="Склад блочных тюков (солома) - чердак" />		
-		<text name="shopItem_baleRoundStoragePressCorridor" text="Временное хранение цилиндрических тюков" />		
+		<text name="shopItem_baleRoundStoragePressCorridor" text="Временное хранение рулонных тюков" />		
 		<text name="shopItem_baleSquareStoragePressCorridor" text="Временное хранение блочных тюков" />		
 		
 		<!-- Object Storages by GTX - Shelfs -->
