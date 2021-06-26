@@ -256,8 +256,8 @@
 		<text name="animals_pigStableBig03" text="Свинарник 3 (питомник)" />
 		<text name="animals_sheepStable" text="Овечье пастбище" />
 		<text name="animals_farrowingPen" text="Здание для опороса" />
-	+	<text name="animals_horseStableBoxA" text="Ящик для конюшни A" />
-	+	<text name="animals_horseStableBoxB" text="Ящик для конюшни B" />
+	+	<text name="animals_horseStableBoxA" text="Бокс снаряжения конюшни A" />
+	+	<text name="animals_horseStableBoxB" text="Бокс снаряжения конюшни B" />
 		<text name="shopItem_deadAnimal" text="Туша животного" />
 		<text name="fillTypeGroup_power" text="Комбикорм" />
 		<text name="shopItem_goatBrown" text="Коза (коричневая)" />
