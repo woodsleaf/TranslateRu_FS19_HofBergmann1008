@@ -305,7 +305,7 @@
 	+	<text name="animals_breedingBullStable" text="Стойло для разведения племенных быков (2)" />
 		<text name="animals_desaminationHouse" text="Пункт сбора спермы быков" />
 	+	<text name="shopItem_cowBlackWhiteCalf" text="Корова (черно-бело-телячая)" />
-	+	<text name="shopItem_pigRedSow" text="Свинья (розовая/поросенок)" />
+	+	<text name="shopItem_pigRedSow" text="Свинья (розовая)" />
 
 		<!-- Objects -->
 		<text name="shopItem_bigBagWholeGrain" text="FIBC с цельнозерновой мукой" />
@@ -387,7 +387,7 @@
 		<text name="shopItem_vegetablesCardBoardFillable" text="Картонная коробка (заполняемая)" />
 		<text name="function_vegetablesCardBoardFillable" text="Картонные коробки используются для сбора перцев и томатов. Является многоразовой (не продается вместе с товаром))." />
 		<text name="shopItem_emptyHoneycombBox" text="Рамки для сот" />
-		<text name="function_emptyHoneycombBox" text="Требуется для производства мёда, в ящике рамки для сот, которые нужно вставить в улей. В улий нужно 2 коробки рамок для сот." />
+		<text name="function_emptyHoneycombBox" text="Требуется для производства мёда, в ящике рамки для сот, которые нужно вставить в улей. В улей нужно 2 штуки рамок для сот." />
 		<text name="shopItem_fullHoneycombBox" text="Ванна для сот" />
 		<text name="function_fullHoneycombBox" text="Требуется для опустошения ульев и транспортировки сот. Является многоразовой (не продается вместе с товаром). Обратите внимание, чтобы полностью опустошить улей необходимо 2 таких ванны." />
 		<text name="shopItem_beesBox" text="Медоносные пчелы" />
@@ -635,13 +635,13 @@
 		<text name="seasons_shopItem_DUCK_TYPE_BLACK" text="Утка (черная)" />
 		<text name="seasons_shopItem_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
 		<text name="seasons_shopItem_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
-	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова (черная / белая / телячья)" />
+	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова (черная-белая)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
 	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черный / белый)" />
-	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья (розовый / поросенок)" />
+	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья (розовая)" />
 		<text name="seasons_animalInfo_RAM_TYPE_BLACK" text="Баран (чёрный)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_BROWN" text="Коза (коричневая)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_WHITE" text="Коза (белая)" />
@@ -653,13 +653,13 @@
 		<text name="seasons_animalInfo_DUCK_TYPE_BLACK" text="Утка (черная)" />
 		<text name="seasons_animalInfo_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
 		<text name="seasons_animalInfo_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
-	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова (черная / белая / телячья)" />
+	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова (черная-белая)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
 	+	<text name="seasons_animalInfo_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черный / белый)" />
-	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья (розовый / поросенок)" />
+	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья (розовая)" />
 
 		<!-- Object Storages by GTX - BaleStorages -->
 		<text name="category_baleStorages" text="Хранилища тюков" />
