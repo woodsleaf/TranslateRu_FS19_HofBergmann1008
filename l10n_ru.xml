@@ -345,8 +345,8 @@
 		<text name="configuration_stateTitle" text="Положение" />
 		<text name="configuration_new" text="Новое" />
 		<text name="configuration_used" text="Использованное" />
-		<text name="shopItem_woodChipsBag" text="Мешок с дровами" />
-		<text name="function_woodChipsBag" text="Дрова в мешке, нужны для топки печи в пекарне на ферме." />
+		<text name="shopItem_woodChipsBag" text="Мешок с дровами (щепа)" />
+		<text name="function_woodChipsBag" text="Щепа в мешке, нужна для топки печи в пекарне на ферме." />
 		<text name="shopItem_potatoSack" text="Мешок с картофелем" />
 		<text name="shopItem_woodChipsSack" text="Мешок со стружкой" />
 		<text name="shopItem_woodShavingsSack" text="Мешок для стружки" />
@@ -531,9 +531,9 @@
 	+	<text name="typeDesc_mobileMilkStand" text="Мобильный доильный аппарат" />
 	+	<text name="enterText_mobileMilkingStand" text="Мобильный доильный аппарат. (Operate)" />
 	+	<text name="shopItem_pushableMixerWagon" text="Тележка-кормораздатчик"/>
-	+	<text name="shopItem_milkShuttle" text="Транспортировщик молока"/>
+	+	<text name="shopItem_milkShuttle" text="Бочка для перевозки молока "/>
 	+	<text name="function_pushableMixerWagon" text="Небольшой электрический миксер-кормораздатчик для толкания. Этот кормосмеситель подходит только для производства кормов для свиней."/>
-	+	<text name="function_milkShuttle" text="MilkShuttle / Молочное такси используется для доставки телят. Для производства молока для выращивания телят требуются вода и сухое молоко, которые продаются отдельно."/>
+	+	<text name="function_milkShuttle" text="Используется для доставки молока подрастающим телятам. Примечание: Для производства молока требуются вода и сухое молоко."/>
 	+	<text name="typeDesc_pushableMixerWagon" text="Тележка-кормораздатчик для семян"/>
 	+	<text name="typeDesc_milkShuttle" text="Транспортировщик молока"/>
 	+	<text name="headerText_pushableMixerWagon" text="Соотношение смеси:"/>
