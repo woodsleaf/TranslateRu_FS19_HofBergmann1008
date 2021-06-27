@@ -255,9 +255,9 @@
 		<text name="animals_pigStableBig02" text="Свинарник 2 (питомник)" />
 		<text name="animals_pigStableBig03" text="Свинарник 3 (питомник)" />
 		<text name="animals_sheepStable" text="Овечье пастбище" />
-		<text name="animals_farrowingPen" text="Здание для опороса" />
-	+	<text name="animals_horseStableBoxA" text="Бокс снаряжения конюшни A" />
-	+	<text name="animals_horseStableBoxB" text="Бокс снаряжения конюшни B" />
+		<text name="animals_farrowingPen" text="Блок опороса (примыкает к свинарнику)" />
+	+	<text name="animals_horseStableBoxA" text="Денник для индивидуального содержания конюшни A" />
+	+	<text name="animals_horseStableBoxB" text="Денник для индивидуального содержания конюшни B" />
 		<text name="shopItem_deadAnimal" text="Туша животного" />
 		<text name="fillTypeGroup_power" text="Комбикорм" />
 		<text name="shopItem_goatBrown" text="Коза (коричневая)" />
@@ -304,8 +304,8 @@
 		<text name="animals_bullStable03" text="Хлев для быков (3)" />
 	+	<text name="animals_breedingBullStable" text="Стойло для разведения племенных быков (2)" />
 		<text name="animals_desaminationHouse" text="Пункт сбора спермы быков" />
-	+	<text name="shopItem_cowBlackWhiteCalf" text="Корова (черно-бело-телячая)" />
-	+	<text name="shopItem_pigRedSow" text="Свинья (розовая)" />
+	+	<text name="shopItem_cowBlackWhiteCalf" text="Корова стельная[беременная] (черная-белая)" />
+	+	<text name="shopItem_pigRedSow" text="Свинья свиноматка (розовая)" />
 
 		<!-- Objects -->
 		<text name="shopItem_bigBagWholeGrain" text="FIBC с цельнозерновой мукой" />
@@ -635,13 +635,13 @@
 		<text name="seasons_shopItem_DUCK_TYPE_BLACK" text="Утка (черная)" />
 		<text name="seasons_shopItem_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
 		<text name="seasons_shopItem_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
-	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова (черная-белая)" />
+	+	<text name="seasons_shopItem_COWC_TYPE_BLACK_WHITE" text="Корова стельная[беременная] (черная-белая)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
-	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черно-белый)" />
 	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
-	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
-	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черный / белый)" />
-	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья (розовая)" />
+	#	<text name="seasons_shopItem_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричнево-белый)" />
+	+	<text name="seasons_shopItem_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черно-белый)" />
+	+	<text name="seasons_shopItem_PIG_TYPE_RED_SOW" text="Свинья свиноматка (розовая)" />
 		<text name="seasons_animalInfo_RAM_TYPE_BLACK" text="Баран (чёрный)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_BROWN" text="Коза (коричневая)" />
 		<text name="seasons_animalInfo_GOAT_TYPE_WHITE" text="Коза (белая)" />
@@ -653,13 +653,13 @@
 		<text name="seasons_animalInfo_DUCK_TYPE_BLACK" text="Утка (черная)" />
 		<text name="seasons_animalInfo_DOG_TYPE_BIGSWISSSENNER" text="Большой швейцарский зенненхунд" />
 		<text name="seasons_animalInfo_DOG_TYPE_JACKRUSSEL" text="Джек-рассел-терьер" />
-	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова (черная-белая)" />
+	+	<text name="seasons_animalInfo_COWC_TYPE_BLACK_WHITE" text="Корова стельная[беременная] (черная-белая)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK" text="Молодой бычок (черный)" />
-	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черный / белый)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BLACK_WHITE" text="Молодой бычок (черно-белый)" />
 	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN" text="Молодой бычок (коричневый)" />
-	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричневый / белый)" />
+	#	<text name="seasons_animalInfo_YOUNGBULL_TYPE_BROWN_WHITE" text="Молодой бычок (коричнево-белый)" />
 	+	<text name="seasons_animalInfo_BREEDINGBULL_TYPE_BLACK_WHITE" text="Бык (черный / белый)" />
-	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья (розовая)" />
+	+	<text name="seasons_animalInfo_PIG_TYPE_RED_SOW" text="Свинья свиноматка (розовая)" />
 
 		<!-- Object Storages by GTX - BaleStorages -->
 		<text name="category_baleStorages" text="Хранилища тюков" />
