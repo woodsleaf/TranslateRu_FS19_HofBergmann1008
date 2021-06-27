@@ -531,7 +531,7 @@
 	+	<text name="typeDesc_mobileMilkStand" text="Мобильный доильный аппарат" />
 	+	<text name="enterText_mobileMilkingStand" text="Мобильный доильный аппарат. (Operate)" />
 	+	<text name="shopItem_pushableMixerWagon" text="Тележка-кормораздатчик"/>
-	+	<text name="shopItem_milkShuttle" text="Бочка для перевозки молока "/>
+	+	<text name="shopItem_milkShuttle" text="Бак для перевозки молока "/>
 	+	<text name="function_pushableMixerWagon" text="Небольшой электрический миксер-кормораздатчик для толкания. Этот кормосмеситель подходит только для производства кормов для свиней."/>
 	+	<text name="function_milkShuttle" text="Используется для доставки молока подрастающим телятам. Примечание: Для производства молока требуются вода и сухое молоко."/>
 	+	<text name="typeDesc_pushableMixerWagon" text="Тележка-кормораздатчик для семян"/>
